@@ -5,13 +5,18 @@
 // @updateURL   https://e-ll-c.github.io/okiba/happa/lo_card_sortable.js
 // @include     http://ykamiya.sakura.ne.jp/cgi-bin/rep0.cgi
 // @require     http://rubaxa.github.io/Sortable/Sortable.js
-// @resource    style https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
-// @version     1
+// @version     1.0.1
 // @grant       none
 // ==/UserScript==
 
 
 (function($) {
+  let title = document.querySelector('span#ch1');
+
+  if (!(title && title.textContent.trim() == '対戦整理')) {
+    return;
+  }
+
   let sorting = false;
   const table = document.querySelector('form[action = "rep0.cgi"] table.ma[width = "878"]');
 
