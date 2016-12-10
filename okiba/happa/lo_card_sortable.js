@@ -3,6 +3,8 @@
 // @namespace   elltaso
 // @description 対戦整理でカードをドラッグで並び替えできるようにする
 // @updateURL   https://e-ll-c.github.io/okiba/happa/lo_card_sortable.js
+// @installURL  https://e-ll-c.github.io/okiba/happa/lo_card_sortable.js
+// @downloadURL https://e-ll-c.github.io/okiba/happa/lo_card_sortable.js
 // @include     http://ykamiya.sakura.ne.jp/cgi-bin/rep0.cgi
 // @require     http://rubaxa.github.io/Sortable/Sortable.js
 // @version     1.0.1
