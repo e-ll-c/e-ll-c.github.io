@@ -27,6 +27,7 @@
   css.insertRule('.target-eno input { color: #0096c1; }', 0);
   css.insertRule('.target-name { font-size: .8rem; display: none; }', 0);
   css.insertRule('.target-eno .target-name { display: block; }', 0);
+  css.insertRule('input[name ^=ActSnCall] { width: 270px; }', 0);
 
   const tbody = table.querySelector('tbody');
   const div = document.createElement('div');
