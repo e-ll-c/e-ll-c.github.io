@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+img {
+  max-width: 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f2;
+
+}
+
+body {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+h1 {
+  display: none;
+}
+
+a {
+  color: #0dbad9;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 2rem 0 0 0;
+}
+
+#content {
+  margin: 2rem auto;
+  max-width: 850px;
+}
+
+header {
+  height: calc(15em + 10vh);
+  background: url(./okiba/happa/sense-of-wonder.jpg) no-repeat #f9f9f2 30% 70%;
+  background-size: cover;
+}
+
+header > * {
+  margin: 0 3rem;
+  color: #fff;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+
+h1 {
+  font-weight: normal;
+}
+
+header p {
+
+}
+
+section {
+  margin: 2rem 0 4rem 0;
+}
+
+em {
+  font-style: normal;
+  color: #f34b50;
+}
+
+#content > * {
+  margin-left: .7rem;
+  margin-right: .7rem;
+}
+
