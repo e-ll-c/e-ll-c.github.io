@@ -63,3 +63,14 @@ a.locs-button,
 input[name ^=ActSnCall] {
     width: 270px;
 }
+
+table.ma tr.line1,
+table.ma tr.line2 {
+    background-color: inherit;
+}
+
+table.ma tr:nth-child(odd) {
+    background-color: #fffaf0;
+}
+
+
