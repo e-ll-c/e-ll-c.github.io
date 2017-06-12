@@ -8,7 +8,7 @@
 // @installURL  https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @resource    style https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170612-1
-// @version     1.0.0
+// @version     1.0.1
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
@@ -144,8 +144,12 @@
 
   function updateMember(e) {
     const table = document.getElementById('elts-member');
-    table.childNodes.forEach(tr => tr.className = 'elts-m-hide');
-    updateMemberCounter();
+
+    table.childNodes.forEach(tr => {
+      if (tr.id != 'elts-self') {
+        tr.className = 'elts-m-hide';
+      }
+    });
 
     getChecked()
       .forEach(checkbox => {
@@ -172,6 +176,7 @@
       table.className = 'ok';
     }
 
+    updateMemberCounter();
     document.querySelector('.FOOT').style.marginBottom = 30 + document.getElementById('elts-selector').clientHeight + 'px';
   }
 
@@ -243,6 +248,7 @@
     }
 
     tr.id = 'elts-self';
+    tr.className = 'elts-m-show';
     tr.dataset.eno = eno;
     tr.appendChild(document.createElement('td'));
     tr.appendChild(wrap(data.image));
