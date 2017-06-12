@@ -1,0 +1,211 @@
+#elts-selector {
+  position: fixed;
+  bottom: 10px;
+  z-index: 1;
+  width: 780px;
+  padding: 0 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#elts-selector,
+#elts-skill {
+  border: 1px #99CC66 solid;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px 0 #BBDD99;
+}
+
+#elts-skill {
+  position: fixed;
+  bottom: 10px;
+  width: 280px;
+  margin: 0 0 0 9px;
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 11px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+#elts-skill ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#elts-skill li {
+  display: table-row;
+  width: 100%;
+}
+
+#elts-skill .active {
+  color: #006699;
+}
+
+#elts-skill .passive {
+  color: #993399;
+}
+
+#elts-skill .max {
+  color: #33CC99;
+}
+
+#elts-skill .max,
+#elts-skill .desc {
+  display: table-cell;
+  padding-bottom: 5px;
+}
+
+#elts-skill h2 {
+  font-weight: 400;
+  margin: 10px 0 0 0;
+}
+
+#elts-selector:not(.elts-s-hide) .d-arrow,
+.elts-s-hide .u-arrow {
+  display: inline;
+}
+
+.u-arrow,
+.d-arrow,
+.elts-s-hide #elts-contents {
+  display: none;
+}
+
+#elts-selector h2 {
+  font-size: 1rem;
+  margin: 0;
+  padding: 10px 0;
+  cursor: pointer;
+  width: calc(100% - 9rem);
+  color: color: #00592d;
+}
+
+.FOOT {
+  margin-bottom: 30rem;
+}
+
+.elts-m-hide {
+  display: none;
+}
+
+#elts-member {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#elts-member td {
+  font-size: 12px;
+  border-top: 1px solid #e0f0dd;
+  border-bottom: 1px solid #e0f0dd;
+  padding: 5px 0;
+  color: #006699;
+}
+
+#elts-member td:nth-child(2) img {
+  height: 34px;
+  width: 34px;
+  float: none;
+  vertical-align: middle;
+}
+
+#elts-member td:nth-child(2) {
+  color: #b1dcb5;
+}
+
+#elts-member.error td:nth-child(2) {
+  color: #cc0066;
+}
+
+#elts-member tr td:first-of-type {
+  padding-left: 5px;
+}
+
+#elts-member tr td:last-of-type {
+  padding-right: 5px;
+}
+
+#elts-member tr:nth-child(2n) {
+  background-color: #f0fff0;
+}
+
+#elts-member tr:nth-child(2n + 1) {
+  background-color: #e9f9e0;
+}
+
+#elts-indicator {
+  position: absolute;
+  top: 10px;
+  right: 9rem;
+  color: #cc0066;
+  display: none;
+}
+
+#elts-destination {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 2;
+}
+
+#elts-destination span {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 2px;
+  padding: 10px 5px;
+  color: #86d7ae;
+}
+
+.elts-s-hide #elts-destination {
+  display: none;
+}
+
+.tobatsu #elts-tobatsu,
+.rensyu #elts-rensyu {
+  font-weight: bold;
+  color: #008844;
+}
+
+.tobatsu .tobatsu-2::before,
+.rensyu .rensyu-2::before,
+.story .story-2::before,
+.tobatsu .tobatsu-3::before,
+.rensyu .rensyu-3::before,
+.story .story-3::before {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.tobatsu .tobatsu-2::before,
+.rensyu .rensyu-2::before,
+.story .story-2::before {
+  content: '●';
+}
+
+.tobatsu .tobatsu-3::before,
+.rensyu .rensyu-3::before,
+.story .story-3::before {
+  content: '●●';
+}
+
+#elts-self {
+  display: table-row !important;
+}
+
+#elts-self td {
+  background-color: #fff;
+}
+
+.story #elts-p-tobatsu,
+.story #elts-p-rensyu,
+#elts-p-story {
+  display: none;
+}
+
+.story #elts-p-story {
+  display: inline;
+}
+
+.updated .note {
+  display: none;
+}
+
+
+
