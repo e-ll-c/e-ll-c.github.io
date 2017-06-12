@@ -8,7 +8,7 @@
 // @installURL  https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @resource    style https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170612-1
-// @version     1.0.1
+// @version     1.0.2
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
@@ -439,6 +439,7 @@
     fetchProfile(getMyEno(), data => {
       const table = document.getElementById('elts-member');
       table.insertBefore(createSelfRow(data), table.firstChild);
+      updateMember();
     });
   }
 })();
