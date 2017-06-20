@@ -9,9 +9,9 @@
 
 #elts-selector,
 #elts-skill {
-  border: 1px #99cc66 solid;
+  border: 1px #99CC66 solid;
   border-radius: 5px;
-  box-shadow: 0 4px 4px 0 #bbdd99;
+  box-shadow: 0 4px 4px 0 #BBDD99;
 }
 
 #elts-skill {
@@ -44,7 +44,7 @@
 }
 
 #elts-skill .max {
-  color: #33cc99;
+  color: #33CC99;
 }
 
 #elts-skill .max,
@@ -67,6 +67,10 @@
 .d-arrow,
 .elts-s-hide #elts-contents {
   display: none;
+}
+
+#elts-selector.elts-s-hide {
+  padding-bottom: 0;
 }
 
 #elts-selector h2 {

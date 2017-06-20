@@ -7,8 +7,8 @@
 // @updateURL   https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @installURL  https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
-// @resource    style https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170612-1
-// @version     1.0.2
+// @resource    style https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170620-1
+// @version     1.0.3
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
@@ -78,7 +78,7 @@
       data.skill[name] = parseSkillTable(table, name);
 
       let position = table.querySelector('.G2').textContent;
-      position = position.replace(/[０-９]/g, s => { return String.fromCharCode(s.charCodeAt(0) - 65248) });
+      position = position.replace(/[０-９]/g, s => String.fromCharCode(s.charCodeAt(0) - 65248));
 
       let m = position.match(/隊列:(\d)　射程:(\d)/);
       data.position[name] = { position: ~~ m[1], range: ~~ m[2] };
@@ -87,7 +87,7 @@
     const stats = div.querySelectorAll('.TST .T2');
     const params = ['st', 'ag', 'dx', 'in', 'vt', 'mn'];
     params.forEach((name, i) => data[name] = ~~ stats[i].textContent);
-    data.total = params.reduce((sum, name) => { return sum + data[name] }, 0);
+    data.total = params.reduce((sum, name) => sum + data[name], 0);
 
     return data;
   }
@@ -260,7 +260,7 @@
 
     stats.insertAdjacentHTML(
       'afterbegin',
-      params.map(p => { return p.toUpperCase() + ':' + data[p] }).join(' ') + ` 計:${data.total}` +
+      params.map(p => p.toUpperCase() + ':' + data[p]).join(' ') + ` 計:${data.total}` +
       '<br>' +
       params.map((p, i) => {
         return `<img src="http://ktst.x0.to/p/s${i + 1}.png" width="${Math.round(width * data[p] / data.total)}" height="2">`;
@@ -337,7 +337,7 @@
     return getTable().querySelectorAll('input[name ^= "' + getCheckboxPrefix() + '"]:checked');
   }
 
-  function handleClickIcon(e) {
+  function handleClickDocument(e) {
     const cl = e.target.classList;
 
     if (cl.contains('IC') || cl.contains('IS') || cl.contains('IM')) {
@@ -355,12 +355,26 @@
         updateSkillDesc(profileData[eno]);
       }
     }
-  }
-
-  function handleChangeCheckbox(e) {
-    if (e.target.getAttribute('type') == 'checkbox') {
+    else if (e.target.getAttribute('type') == 'checkbox') {
       updateMember();
     }
+  }
+
+  function handleClickWindowTitle(e) {
+    const div = document.getElementById('elts-selector');
+    div.classList.toggle('elts-s-hide');
+
+    const setting = loadLocalStorage();
+    const hidden = div.classList.contains('elts-s-hide');
+
+    if (isParty()) {
+      setting.windowHidden.party = hidden;
+    }
+    else {
+      setting.windowHidden.story = hidden;
+    }
+
+    saveLocalStorage(setting);
   }
 
   function updateSkillDesc(data) {
@@ -384,6 +398,32 @@
     div.classList.add('updated');
     div.querySelector('h2').textContent = 'ENo.' + data.eno + ' ' + data.username;
     div.appendChild(data.skill[getDestination()]);
+  }
+
+  function loadLocalStorage() {
+    const defaultData = {
+      windowHidden: {
+        story: true,
+        party: true,
+      }
+    };
+
+    try {
+      let data = JSON.parse(localStorage.getItem(signature));
+      return data ? data : defaultData;
+    }
+    catch(e) {
+      return defaultData;
+    }
+  }
+
+  function saveLocalStorage(data) {
+    try {
+      localStorage.setItem(signature, JSON.stringify(data));
+    }
+    catch(e) {
+      //
+    }
   }
 
   function initialize() {
@@ -415,13 +455,15 @@
         '<p class="note">リンカー一覧及び選択メンバーのアイコンをクリックでスキルをロードします。</p>' +
       '</div>');
 
-    document.querySelector('form[name=act]').addEventListener('change', handleChangeCheckbox);
-    document.addEventListener('click', handleClickIcon);
+    document.addEventListener('click', handleClickDocument);
 
+    const setting = loadLocalStorage();
     const div = document.getElementById('elts-selector');
-    div.querySelector('h2').addEventListener('click', e => div.classList.toggle('elts-s-hide'));
+    div.querySelector('h2').addEventListener('click', handleClickWindowTitle);
 
     if (isParty()) {
+      div.classList.toggle('elts-s-hide', setting.windowHidden.party);
+
       document.querySelector('input[name=tclear]').addEventListener('click', updateMember);
       document.querySelector('select[name=TBT]').addEventListener('change', updateMemberCounter);
 
@@ -430,6 +472,8 @@
       document.getElementById('elts-rensyu').addEventListener('click', e => setDestination('rensyu'));
     }
     else {
+      div.classList.toggle('elts-s-hide', setting.windowHidden.story);
+
       document.querySelector('input[name=sclear]').addEventListener('click', updateMember);
 
       setDestination('story');
