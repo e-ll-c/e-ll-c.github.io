@@ -7,8 +7,8 @@
 // @updateURL   https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @installURL  https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
-// @resource    style https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170620-1
-// @version     1.0.3
+// @resource    style https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170621-1
+// @version     1.0.4
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
@@ -16,6 +16,7 @@
 (function($) {
   const signature = 'Ktst member selector';
   const profileData = [];
+  let observer;
   let dlCount = 0;
 
   if (!getTable()) {
@@ -177,6 +178,10 @@
     }
 
     updateMemberCounter();
+    adjustFooterMargin();
+  }
+
+  function adjustFooterMargin() {
     document.querySelector('.FOOT').style.marginBottom = 30 + document.getElementById('elts-selector').clientHeight + 'px';
   }
 
@@ -375,6 +380,10 @@
     }
 
     saveLocalStorage(setting);
+
+    if (!hidden) {
+      adjustFooterMargin();
+    }
   }
 
   function updateSkillDesc(data) {
@@ -478,6 +487,18 @@
 
       setDestination('story');
       document.getElementById('elts-destination').style.display = 'none';
+
+      const target = document.querySelector('#MEM0');
+
+      observer = new MutationObserver((mutations) => {
+        if (target.dataset.prevHeight) {
+          window.scrollTo(window.pageXOffset, window.pageYOffset + (target.clientHeight - target.dataset.prevHeight));
+        }
+
+        target.dataset.prevHeight = target.clientHeight;
+      });
+
+      observer.observe(target, { childList: true });
     }
 
     fetchProfile(getMyEno(), data => {
