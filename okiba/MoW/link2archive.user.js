@@ -7,7 +7,7 @@
 // @updateURL   https://e-ll-c.github.io/okiba/MoW/link2archive.user.js
 // @installURL  https://e-ll-c.github.io/okiba/MoW/link2archive.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/MoW/link2archive.user.js
-// @version     0.0.0
+// @version     1.0.0
 // ==/UserScript==
 
 (function($) {
