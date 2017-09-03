@@ -2,12 +2,14 @@
 // @name        霧のアーカイブにリンクするやつ
 // @namespace   elltaso
 // @description キャラのページにアーカイブへのリンクをつける
-// @include     http://blacktea.sakura.ne.jp/mistofwar/RESULT/c*
-// @include     http://mistofwar.kitunebi.com/M_o_W_4/*/RESULT/c*
+// @include     http://blacktea.sakura.ne.jp/mistofwar/RESULT/*
+// @include     http://blacktea.sakura.ne.jp/mistofwar/list.html
+// @include     http://mistofwar.kitunebi.com/M_o_W_4/*/RESULT/*
+// @include     http://mistofwar.kitunebi.com/M_o_W_4/*/list.html
 // @updateURL   https://e-ll-c.github.io/okiba/MoW/link2archive.user.js
 // @installURL  https://e-ll-c.github.io/okiba/MoW/link2archive.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/MoW/link2archive.user.js
-// @version     1.0.0
+// @version     1.0.1
 // ==/UserScript==
 
 (function($) {
@@ -19,7 +21,7 @@
 
   function getCurrentPage() {
     try {
-      return location.href.match(/RESULT\/(c[^/]+)/)[1];
+      return location.href.match(/(RESULT\/.+|list\.html)/)[1];
     }
     catch (e) {
       return null;
@@ -45,7 +47,7 @@
 
     data.forEach(e => {
       let anchor;
-      const href = e.base + 'RESULT/' + currentPage;
+      const href = e.base + currentPage;
       const phase = (e.phase == -1) ? '最新' : e.phase;
 
       if (href == currentUrl) {
