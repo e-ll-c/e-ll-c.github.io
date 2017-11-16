@@ -7,10 +7,7 @@
 // @updateURL   https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @installURL  https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
-// @resource    style https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170621-1
-// @version     1.0.4
-// @grant       GM_addStyle
-// @grant       GM_getResourceText
+// @version     1.0.5
 // ==/UserScript==
 
 (function($) {
@@ -125,10 +122,17 @@
   }
 
   function applyStyle() {
-    const style = document.createElement('style');
-    style.setAttribute('type', 'text/css');
-    style.textContent = GM_getResourceText('style');
-    document.getElementsByTagName('head').item(0).appendChild(style);
+    const url = 'https://e-ll-c.github.io/okiba/ktst/kms/style.css?20170621-1';
+
+    return fetch(url, { mode: 'cors' })
+      .then(response => response.text())
+      .then(text => {
+        console.log(text);
+        const style = document.createElement('style');
+        style.setAttribute('type', 'text/css');
+        style.textContent = text;
+        document.getElementsByTagName('head').item(0).appendChild(style);
+      });
   }
 
   function getTable() {
