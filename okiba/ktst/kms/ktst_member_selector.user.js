@@ -7,7 +7,7 @@
 // @updateURL   https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @installURL  https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
-// @version     1.0.5
+// @version     1.0.6
 // ==/UserScript==
 
 (function($) {
@@ -460,6 +460,8 @@
           '</table>' +
         '</div>' +
       '</div>');
+
+    document.getElementById('elts-selector').style.display = 'none';
 
     document.querySelector('.SUB').insertAdjacentHTML(
       'beforeend',
