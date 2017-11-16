@@ -7,7 +7,7 @@
 // @updateURL   https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @installURL  https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/ktst/kms/ktst_member_selector.user.js
-// @version     1.0.6
+// @version     1.0.7
 // ==/UserScript==
 
 (function($) {
@@ -68,7 +68,7 @@
       fav: ~~ div.querySelector('#FAV').textContent,
       skill: {},
       position: {},
-    }
+    };
 
     const destination = ['tobatsu', 'ransen', 'rensyu', 'story'];
     destination.forEach((name, i) => {
@@ -132,6 +132,7 @@
         style.setAttribute('type', 'text/css');
         style.textContent = text;
         document.getElementsByTagName('head').item(0).appendChild(style);
+        document.getElementById('elts-selector').style.display = 'block';
       });
   }
 
