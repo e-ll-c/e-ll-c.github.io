@@ -1,4 +1,6 @@
-/* ŠO•”ƒXƒ^ƒCƒ‹ƒV[ƒgƒtƒ@ƒCƒ‹ */
+@charset "utf-8";
+
+/* å¤–éƒ¨ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒ« */
 
 
 BODY{
@@ -47,9 +49,9 @@ A:HOVER{
 #st4 { color: #ff9900; }
 #st5 { color: #666666; }
 
-#cLv { color: #ff3333; }/* ”’lFLv/Rank/Day/CVP */
-#cLP { color: #ff6600; }/* ”’lFMLP */
-#cFP { color: #0066ff; }/* ”’lFMFP */
+#cLv { color: #ff3333; }/* æ•°å€¤ï¼šLv/Rank/Day/CVP */
+#cLP { color: #ff6600; }/* æ•°å€¤ï¼šMLP */
+#cFP { color: #0066ff; }/* æ•°å€¤ï¼šMFP */
 
 /* #it1 { color: #ff0066; } */ 
 /* #it2 { color: #996600; } */
@@ -103,41 +105,41 @@ td.ba24{ background-color: #FFCCCC; }
 /* --------------------------------------------------------------------------------------------------------------
 
 
-/* --- ƒ}ƒbƒv•\¦ --- */
+/* --- ãƒãƒƒãƒ—è¡¨ç¤º --- */
 table.map {
-/* width: 700px;*/ /* •\‚Ì• */
-border: 1px #c0c0c0 solid; /* ‘å˜g‚Ì‹«ŠEü */
+/* width: 700px;*/ /* è¡¨ã®å¹… */
+border: 1px #c0c0c0 solid; /* å¤§æ ã®å¢ƒç•Œç·š */
 border-collapse: collapse;
 font-size: 100%;
 }
 
-/* --- ƒZƒ‹ --- */
+/* --- ã‚»ãƒ« --- */
 table.map th,
 table.map td {
-/* width: 20%; */ /* ƒZƒ‹‚Ì•iƒZƒ‹‚Ì•‚ğ‹Ï“™‚É‚·‚éê‡j */
-padding: 1px 1px; /* ƒZƒ‹‚ÌƒpƒfƒBƒ“ƒOiã‰ºA¶‰Ej */
-border: 1px #c0c0c0 solid; /* ƒZƒ‹‚Ì‹«ŠEü */
+/* width: 20%; */ /* ã‚»ãƒ«ã®å¹…ï¼ˆã‚»ãƒ«ã®å¹…ã‚’å‡ç­‰ã«ã™ã‚‹å ´åˆï¼‰ */
+padding: 1px 1px; /* ã‚»ãƒ«ã®ãƒ‘ãƒ‡ã‚£ãƒ³ã‚°ï¼ˆä¸Šä¸‹ã€å·¦å³ï¼‰ */
+border: 1px #c0c0c0 solid; /* ã‚»ãƒ«ã®å¢ƒç•Œç·š */
 }
 
-/* --- Œ©o‚µƒZƒ‹ --- */
+/* --- è¦‹å‡ºã—ã‚»ãƒ« --- */
 table.map thead th {
-background-color: #deefff; /* Œ©o‚µƒZƒ‹‚Ì”wŒiF */
+background-color: #deefff; /* è¦‹å‡ºã—ã‚»ãƒ«ã®èƒŒæ™¯è‰² */
 text-align: center;
 }
 
-/* --- ƒtƒbƒ^ƒZƒ‹ --- */
+/* --- ãƒ•ãƒƒã‚¿ã‚»ãƒ« --- */
 table.map tfoot td {
-background-color: #ffffff; /* ƒtƒbƒ^ƒZƒ‹‚Ì”wŒiF */
+background-color: #ffffff; /* ãƒ•ãƒƒã‚¿ã‚»ãƒ«ã®èƒŒæ™¯è‰² */
 }
 
-/* --- Šï”s --- */
+/* --- å¥‡æ•°è¡Œ --- */
 table.map tr.line1 {
-background-color: #FFFAF0; /* Šï”s‚Ì”wŒiF */
+background-color: #FFFAF0; /* å¥‡æ•°è¡Œã®èƒŒæ™¯è‰² */
 }
 
-/* --- ‹ô”s --- */
+/* --- å¶æ•°è¡Œ --- */
 table.map tr.line2 {
-background-color: #ffffff; /* ‹ô”s‚Ì”wŒiF */
+background-color: #ffffff; /* å¶æ•°è¡Œã®èƒŒæ™¯è‰² */
 }
 
 
