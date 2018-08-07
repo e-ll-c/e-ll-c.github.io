@@ -1,0 +1,145 @@
+/* 外部スタイルシートファイル */
+
+
+BODY{
+  scrollbar-3dlight-color:#666666;
+  scrollbar-arrow-color:#666666;
+  scrollbar-base-color:#FFFFFF;
+  scrollbar-darkshadow-color:#FFFFFF;
+  scrollbar-face-color:#FFFFFF;
+  scrollbar-highlight-color:#FFFFFF;
+  scrollbar-track-color:#FFFFFF;
+  scrollbar-shadow-color:#666666;
+  margin-top : 0px;
+  margin-bottom : 0px;
+  margin-left : 0px;
+  color:#333333;
+}
+A:LINK{
+  text-decoration:none;
+  color:#0000ff;
+}
+A:VISITED{
+  text-decoration:none;
+  color:#336699;
+}
+A:HOVER{
+  text-decoration: underline;
+  color:#33ffff;
+  position:relative;
+  top:1px;
+  left:1px;
+}
+
+#ck1 { color: #ff0066; }
+
+#ch1 { color: #3366ff; font-size: 190%; }
+#ch2 { color: #666600; font-size: 140%; }
+#ch3 { color: #ff0066; }
+#ch4 { color: #996600; }
+#ch5 { color: #ff0066; background-color: #FFE4B5; }
+#ch6 { color: #3366ff; font-weight:}
+#ch7 { color: #999900; }
+
+#st1 { color: #ff3333; } 
+#st2 { color: #ff6600; }
+#st3 { color: #0066ff; }
+#st4 { color: #ff9900; }
+#st5 { color: #666666; }
+
+#cLv { color: #ff3333; }/* 数値：Lv/Rank/Day/CVP */
+#cLP { color: #ff6600; }/* 数値：MLP */
+#cFP { color: #0066ff; }/* 数値：MFP */
+
+/* #it1 { color: #ff0066; } */ 
+/* #it2 { color: #996600; } */
+
+#co1 { color: #009966; }
+#co2 { color: #9900ff; }
+#co3 { color: #006699; }
+#cok { color: #6633ff; }
+#cng { color: #ff3366; }
+#cokb{ color: #6633ff; background-color: #FFE4B5;  }
+#cngb{ color: #ff3333; background-color: #FFE4B5;  }
+
+#iv1 { color: #ff0066; font-size: 140%; }
+#iv2 { color: #666666; }
+
+
+#baM { color: #ff9933; }
+#baB { color: #ff3333; }
+td.baM { background-color: #FF9933; }
+td.baB { background-color: #FF3333; }
+tr.ba1 { background-color: #FFE4B5; }
+tr.ba2 { background-color: #F5F5DC; }
+
+td.ba0 { background-color: #FFFFFF; }
+td.ba1 { background-color: #FFE4B5; }
+td.ba2 { background-color: #F5F5DC; }
+td.ba3 { background-color: #CCFF99; }
+td.ba4 { background-color: #CCFFCC; }
+td.ba5 { background-color: #99FFFF; }
+td.ba6 { background-color: #CCFFFF; }
+td.ba7 { background-color: #9999FF; }
+td.ba8 { background-color: #CCCCFF; }
+td.ba9 { background-color: #CC99CC; }
+td.ba10{ background-color: #FF99FF; }
+td.ba11{ background-color: #FFCC99; }
+td.ba12{ background-color: #FFCCCC; }
+td.ba13{ background-color: #FFE4B5; }
+td.ba14{ background-color: #F5F5DC; }
+td.ba15{ background-color: #CCFF99; }
+td.ba16{ background-color: #CCFFCC; }
+td.ba17{ background-color: #99FFFF; }
+td.ba18{ background-color: #CCFFFF; }
+td.ba19{ background-color: #9999FF; }
+td.ba20{ background-color: #CCCCFF; }
+td.ba21{ background-color: #CC99CC; }
+td.ba22{ background-color: #FF99FF; }
+td.ba23{ background-color: #FFCC99; }
+td.ba24{ background-color: #FFCCCC; }
+
+
+/* --------------------------------------------------------------------------------------------------------------
+
+
+/* --- マップ表示 --- */
+table.map {
+/* width: 700px;*/ /* 表の幅 */
+border: 1px #c0c0c0 solid; /* 大枠の境界線 */
+border-collapse: collapse;
+font-size: 100%;
+}
+
+/* --- セル --- */
+table.map th,
+table.map td {
+/* width: 20%; */ /* セルの幅（セルの幅を均等にする場合） */
+padding: 1px 1px; /* セルのパディング（上下、左右） */
+border: 1px #c0c0c0 solid; /* セルの境界線 */
+}
+
+/* --- 見出しセル --- */
+table.map thead th {
+background-color: #deefff; /* 見出しセルの背景色 */
+text-align: center;
+}
+
+/* --- フッタセル --- */
+table.map tfoot td {
+background-color: #ffffff; /* フッタセルの背景色 */
+}
+
+/* --- 奇数行 --- */
+table.map tr.line1 {
+background-color: #FFFAF0; /* 奇数行の背景色 */
+}
+
+/* --- 偶数行 --- */
+table.map tr.line2 {
+background-color: #ffffff; /* 偶数行の背景色 */
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+

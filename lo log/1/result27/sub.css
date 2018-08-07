@@ -1,0 +1,11 @@
+/* 外部スタイルシートファイル */
+
+
+/* BODY{background-color:#ff9933} */
+BODY{
+  background-image : url(img/bg_main.jpeg);
+  background-attachment: fixed;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-color:#ffffff;
+}

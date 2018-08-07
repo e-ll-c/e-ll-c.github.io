@@ -1,0 +1,166 @@
+
+@charset "Shift_JIS";
+
+/* ---見出し表示---*/
+#in1 { color: #3366ff; font-weight: bold ;}/* 左側、インデックス */
+#in2 { color: #3366ff; font-size: 150%;}/* 右側、インデックス上 */
+#in3 { color: #666600; font-size: 120%;}/* 右側、◆ */
+#in4 { color: #996600; }/* 右側、◇ */
+#in5 { color: #ff3366; }/* 右側、単語集 */
+
+#re1 { color: #666600; font-size: 120%;}/* 結果、◆ */
+#re2 { color: #663300; }/* 結果、[　] */
+
+
+#eq1 { color: #ff3366; }/* 装備 */
+
+#fe1 { color: #006666; }/* 移動方向 */
+#fe2 { color: #ff3333; }/* SnakeEyes! */
+
+#ho1 { color: #006699; }/* 施設 */
+#ho2 { color: #666666; }/* 施設休日 */
+
+#ta1 { color: #666666; }
+
+#it1 { color: #ff3366; }/* アイテム処理表示 */
+
+#pr1 { color: #ff0066; }/* ステータス：特性 */
+#pr2 { color: #996600; }/* ステータス：学科 */
+#pr3 { color: #ff9000; }/* ステータス：他 */
+#pr4 { color: #336666; }/* ステータス：プロフ */
+#pr5 { color: #996600; }/* ステータス：ミッション */
+
+
+
+/* --- リストの隙間 ---*/
+p.line { line-height: 150%; }
+
+
+/* --------------------------------------------------------------------------------------------------------------
+
+
+/* --- Dashedスタイル --- */
+hr.separator1 {
+height: 2px;
+border: none;
+border-top: 3px #ff9933 dashed; /* 境界線 */
+}
+
+/* --- 見出しエリア --- */
+div.heading {
+color: #666600;
+font-size: 120%;
+width: 780px; /* 見出しエリアの幅 */
+margin-bottom: 1em;
+padding: 4px 0; /* 見出しエリアのパディング（上下、左右） */
+border-bottom: 2px #ff9933 dashed; /* 見出しエリアの下境界線 */
+/* background: #f9f9f9 url(result/img/heading_back1.gif) repeat-x;*/  /* 見出しエリアの背景 */
+}
+
+/* --- 見出し --- */
+div.heading h3 {
+margin: 0;
+padding: 3px 0 0 16px; /* 見出しのパディング（上右下左） */
+background: url(img/heading_square1.gif) no-repeat 0 0.2em; /* 見出しの背景 */
+font-size: 100%; /* 見出しの文字サイズ */
+line-height: 100%;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+
+
+/* --- マニュアルの表全体 --- */
+table.ma {
+/* width: 700px;*/ /* 表の幅 */
+border: 1px #c0c0c0 solid; /* 大枠の境界線 */
+border-collapse: collapse;
+font-size: 100%;
+}
+
+/* --- 表タイトル --- */
+table.ma caption {
+padding-bottom: 5px; /* 表タイトルの下パディング */
+}
+
+/* --- セル --- */
+table.ma th,
+table.ma td {
+/* width: 20%; */ /* セルの幅（セルの幅を均等にする場合） */
+padding: 6px 8px; /* セルのパディング（上下、左右） */
+border: 1px #c0c0c0 solid; /* セルの境界線 */
+}
+
+/* --- 見出しセル --- */
+table.ma thead th {
+background-color: #deefff; /* 見出しセルの背景色 */
+text-align: center;
+}
+
+/* --- フッタセル --- */
+table.ma tfoot td {
+background-color: #ffffff; /* フッタセルの背景色 */
+}
+
+/* --- 奇数行 --- */
+table.ma tr.line1 {
+background-color: #fffAf0; /* 奇数行の背景色 */
+}
+
+/* --- 偶数行 --- */
+table.ma tr.line2 {
+background-color: #ffffff; /* 偶数行の背景色 */
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------
+
+
+/* --- コンテナ --- */
+#container {
+width: 900px; /* ページの幅 */
+margin: 0 auto; /* センタリング */
+/* background: url(sidebar_200.gif) repeat-y left;*/ /* サイドバーの背景画像 */ 
+background-color: #ffffff; /* メインカラムの背景色 */
+border-left: 1px #c0c0c0 solid; /* 左の境界線 */
+border-right: 1px #c0c0c0 solid; /* 右の境界線 */
+}
+
+/* --- ヘッダ --- */
+#header {
+width: 900px; /* メインカラムの幅 */
+background-color: #ffffff; /* ヘッダの背景色 */
+}
+
+/* --- ナビゲーション --- */
+#nav {
+float: left;
+width: 120px; /* サイドバーの幅 */
+font-size: 95%;
+}
+
+/* --- メインカラム --- */
+#content {
+float: left;
+width: 780px; /* メインカラムの幅 */
+}
+
+/* --- ナビゲーション幅狭 --- */
+#nav2 {
+float: left;
+width: 10px; /* サイドバーの幅 */
+font-size: 95%;
+}
+
+/* --- メインカラム幅広 --- */
+#content2 {
+float: left;
+width: 890px; /* メインカラムの幅 */
+}
+
+/* --- フッタ --- */
+#footer {
+clear: left; /* フロートのクリア */
+width: 100%;
+background-color: #ffffff; /* フッタの背景色 */
+}
