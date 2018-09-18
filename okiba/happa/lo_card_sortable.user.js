@@ -5,17 +5,17 @@
 // @updateURL   https://e-ll-c.github.io/okiba/happa/lo_card_sortable.user.js
 // @installURL  https://e-ll-c.github.io/okiba/happa/lo_card_sortable.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/happa/lo_card_sortable.user.js
-// @include     http://ykamiya.sakura.ne.jp/cgi-bin/rep0.cgi*
+// @include     http://ykamiya.ciao.jp/cgi-bin/rep0.cgi*
 // @require     http://rubaxa.github.io/Sortable/Sortable.js
-// @resource    style https://e-ll-c.github.io/okiba/happa/locs.css?20161211-3
-// @version     1.1.6
+// @resource    style https://e-ll-c.github.io/okiba/happa/locs.css?20180918-1
+// @version     1.2.6
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
 
 
 (function($) {
-  const signature = 'LO card sortable';
+  const signature = 'LO#A card sortable';
 
   let title = document.querySelector('span#ch1');
   let sorting = false;
@@ -80,25 +80,19 @@
       return;
     }
 
-    new Promise(resolve => {
-      const xhr = new XMLHttpRequest();
-      targetName.textContent = 'loading ...';
-      xhr.open('GET', 'http://ykamiya.sakura.ne.jp/result/result_chara/result_Eno' + target + '.html', true);
-      xhr.overrideMimeType('text/html; charset=Shift_JIS');
-      xhr.responseType = 'document';
-      xhr.onload = (e) => resolve(e.target.responseXML);
-      xhr.send();
-    })
-    .then(dom => {
-      try {
-        targetName.textContent = dom.getElementsByTagName('title').item(0).textContent;
-        tr.classList.add('target-eno');
-        return;
-      }
-      catch (e) {
-        targetName.textContent = '';
-      }
-    });
+    fetch('http://ykamiya.ciao.jp/result/result_chara/result_Eno' + target + '.html')
+      .then(res => res.text())
+      .then(text => new DOMParser().parseFromString(text, 'text/html'))
+      .then(dom => {
+        try {
+          targetName.textContent = dom.getElementsByTagName('title').item(0).textContent;
+          tr.classList.add('target-eno');
+          return;
+        }
+        catch (e) {
+          targetName.textContent = '';
+        }
+      });
   }
 
   function applyStyle() {
@@ -196,9 +190,8 @@
           f[0].value = s.act;
           f[1].value = s.timing;
           f[2].value = s.x;
-          f[3].value = s.y;
-          f[5].value = s.wait;
-          f[4].value = (s.cardName in cardNames && cardNames[s.cardName].length)
+          f[4].value = s.wait;
+          f[3].value = (s.cardName in cardNames && cardNames[s.cardName].length)
             ? cardNames[s.cardName].shift() : 0;
         }
       });
@@ -222,10 +215,9 @@
           act: f[0].value,
           timing: f[1].value,
           x: f[2].value,
-          y: f[3].value,
-          card: f[4].value,
-          cardName: getCardName(f[4].querySelector('option:checked').textContent),
-          wait: f[5].value,
+          card: f[3].value,
+          cardName: getCardName(f[3].querySelector('option:checked').textContent),
+          wait: f[4].value,
         };
       });
   }
@@ -255,7 +247,7 @@
     table.parentNode.insertBefore(div, table);
     div.insertAdjacentHTML(
       'afterbegin',
-      '<p class="note">ドラッグ & ドロップで並び替えると番号が自動で振り直されます。手動で入れた番号がある場合は、並び替え操作の前にソートを実行して下さい。</p>' +
+      '<p class="note">ドラッグ & ドロップで並び替えると番号が自動で振り直されます。<br />手動で入れた番号がある場合は、並び替え操作の前にソートを実行して下さい。</p>' +
       '<p><a href="#" class="locs-button" id="do-sort">現在の番号でソート</a></p>' );
 
     document.getElementById('do-sort').addEventListener('click', sortAll);

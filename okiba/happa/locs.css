@@ -32,8 +32,8 @@ a.locs-button:active {
 a.locs-button,
 #loader-name,
 #loader-target {
+    font-size: .9em;
     color: #666;
-    font-size: .8rem;
     border: 1px solid #c0c0c0;
     height: 1.9rem;
     line-height: 1;
@@ -51,7 +51,7 @@ a.locs-button,
 }
 
 .target-name {
-    font-size: .8rem;
+    font-size: .8em;
     display: none;
     color: #333 !important;
 }
