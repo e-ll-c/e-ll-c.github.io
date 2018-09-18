@@ -7,8 +7,8 @@
 // @downloadURL https://e-ll-c.github.io/okiba/happa/lo_card_sortable.user.js
 // @include     http://ykamiya.ciao.jp/cgi-bin/rep0.cgi*
 // @require     http://rubaxa.github.io/Sortable/Sortable.js
-// @resource    style https://e-ll-c.github.io/okiba/happa/locs.css?20180918-1
-// @version     1.2.6
+// @resource    style https://e-ll-c.github.io/okiba/happa/locs.css?20180918-2
+// @version     1.2.7
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
