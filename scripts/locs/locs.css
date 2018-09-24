@@ -1,0 +1,79 @@
+.handle-move {
+    cursor: move;
+    padding: 0 .5rem;
+    margin-left: .5rem;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    font-weight: bold;
+    color: #333 !important;
+}
+
+a.locs-button {
+    background: #f8f8f8;
+    padding: .3rem;
+    transition: .2s;
+}
+
+a.locs-button:hover {
+    position: static;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #666;
+}
+
+a.locs-button:active {
+    position: static;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4c9ed9;
+    border: 1px solid #0096c1;
+}
+
+a.locs-button,
+#loader-name,
+#loader-target {
+    font-size: .9em;
+    color: #666;
+    border: 1px solid #c0c0c0;
+    margin: 0 .5em 0 0;
+    display: inline-block;
+    height: 2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    box-sizing: border-box;
+}
+
+.target-delete,
+.target-delete input {
+    color: #dd008a;
+}
+
+.target-eno,
+.target-eno input {
+    color: #0096c1;
+}
+
+.target-name {
+    font-size: .8em;
+    display: none;
+    color: #333 !important;
+}
+
+.target-eno .target-name {
+    display: block;
+}
+
+input[name ^=ActSnCall] {
+    width: 270px;
+}
+
+table.ma tr.line1,
+table.ma tr.line2 {
+    background-color: inherit;
+}
+
+table.ma tr:nth-child(odd) {
+    background-color: #fffaf0;
+}
+
+
