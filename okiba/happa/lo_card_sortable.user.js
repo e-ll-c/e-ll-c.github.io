@@ -1,20 +1,22 @@
 // ==UserScript==
 // @name        LO card sortable
 // @namespace   elltaso
-// @description 対戦整理と対戦設定でカードをドラッグで並び替えできるようにする
+// @description 対戦整理と対戦設定でカードをドラッグで並び替えできるようにする (旧)
 // @updateURL   https://e-ll-c.github.io/okiba/happa/lo_card_sortable.user.js
 // @installURL  https://e-ll-c.github.io/okiba/happa/lo_card_sortable.user.js
 // @downloadURL https://e-ll-c.github.io/okiba/happa/lo_card_sortable.user.js
 // @include     http://ykamiya.ciao.jp/cgi-bin/rep0.cgi*
-// @require     http://rubaxa.github.io/Sortable/Sortable.js
-// @resource    style https://e-ll-c.github.io/okiba/happa/locs.css?20180918-2
-// @version     1.2.7
+// @version     1.2.8
 // @grant       GM_addStyle
 // @grant       GM_getResourceText
 // ==/UserScript==
 
+// 1.2.8 公式導入のため、一切の動作をしないように
+
 
 (function($) {
+  return;
+
   const signature = 'LO#A card sortable';
 
   let title = document.querySelector('span#ch1');
