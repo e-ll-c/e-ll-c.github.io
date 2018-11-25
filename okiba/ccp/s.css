@@ -1,7 +1,9 @@
+@charset "utf-8";
+
 /* ÉfÉtÉHÉãÉg */
 HTML {
     font-size:medium;
-    font-family: Verdana, Roboto, "Droid Sans", "ü‡ÉSÉVÉbÉN", YuGothic, "ÉqÉâÉMÉmäpÉS ProN W3", "Hiragino Kaku Gothic ProN", "ÉÅÉCÉäÉI", Meiryo, sans-serif;
+    font-family:Meiryo,sans-serif;
     overflow-y:scroll;
 }
 BODY {
@@ -14,6 +16,9 @@ BODY {
 FORM { margin:0; }
 input[type=radio] { margin:0 0 0 3px; }
 IMG { border:0; }
+@-moz-document url-prefix() {
+	input, textarea, select, button { font-family: "ÇlÇr ÇoÉSÉVÉbÉN" !important; }
+}
 
 /* ÉäÉìÉN */
 A:link   { color:#336600; text-decoration:none; }
@@ -43,12 +48,12 @@ HR {
 .M5 { margin:5; }
 .IC { width:60px; height:60px; float:left; margin:0; }
 .MT { width:25px; height:25px; line-height: 25px; text-align:center; }
-.MT0{ width:25px; height:25px; background-image: url("http://ccp.x0.to/bg2.png"); }
-.MT1{ width:25px; height:25px; background-image: url("http://ccp.x0.to/cur.png"); }
-.YA1{ background-image: url("http://ccp.x0.to/ya1.png"); }
-.YA2{ background-image: url("http://ccp.x0.to/ya2.png"); }
-.YA3{ background-image: url("http://ccp.x0.to/ya3.png"); }
-.YA4{ background-image: url("http://ccp.x0.to/ya4.png"); }
+.MT0{ width:25px; height:25px; background-image: url("bg2.png"); }
+.MT1{ width:25px; height:25px; background-image: url("cur.png"); }
+.YA1{ background-image: url("ya1.png"); }
+.YA2{ background-image: url("ya2.png"); }
+.YA3{ background-image: url("ya3.png"); }
+.YA4{ background-image: url("ya4.png"); }
 
 /* ÉCÉìÉfÉìÉg */
 DL { margin: 5px 0 5px 15px; }
@@ -58,7 +63,7 @@ DL { margin: 5px 0 5px 15px; }
     width: 1080px;
     margin: 0px auto;
     background-color: #FFD3B4;
-    background-image: url("http://ccp.x0.to/bg6.jpg");
+    background-image: url("bg6.jpg");
     position: relative;
     text-align: left;
 }
@@ -67,7 +72,7 @@ DL { margin: 5px 0 5px 15px; }
     margin: 0;
     float: left;
     background-color: #FFD3B4;
-    background-image: url("http://ccp.x0.to/bg6.jpg");
+    background-image: url("bg6.jpg");
     word-break: break-all; word-wrap: break-word;
     text-align: left;
 }
@@ -75,7 +80,7 @@ DL { margin: 5px 0 5px 15px; }
     width: 1080px;
     margin: 0px auto;
     background-color: #220000;
-    background-image: url("http://ccp.x0.to/bg4.png");
+    background-image: url("bg4.png");
     position: relative;
     text-align: left;
 }
@@ -84,7 +89,7 @@ DL { margin: 5px 0 5px 15px; }
     margin: 0;
     float: left;
     background-color: #220000;
-    background-image: url("http://ccp.x0.to/bg4.png");
+    background-image: url("bg4.png");
     word-break: break-all; word-wrap: break-word;
     text-align: left;
 }
@@ -93,7 +98,7 @@ DL { margin: 5px 0 5px 15px; }
     margin: 0;
     float: right;
     background-color: #220000;
-    background-image: url("http://ccp.x0.to/bg.jpg");
+    background-image: url("bg.jpg");
     text-align: center;
 }
 .FOOTER {
@@ -127,7 +132,7 @@ DL { margin: 5px 0 5px 15px; }
 .TITLE {
     width: 780px; height: 390px;
     margin: 0 0 10px 0;
-    background-image: url("http://ccp.x0.to/main.jpg");
+    background-image: url("main.jpg");
     float: left;
     padding: 0px;
 }
@@ -135,7 +140,7 @@ DL { margin: 5px 0 5px 15px; }
     position: absolute; z-index:4;
     top: 23px; left: 410px;
     width: 340px; height: 340px;
-    background-image: url("http://ccp.x0.to/w340.png");
+    background-image: url("w340.png");
     margin: 0; padding: 0;
     text-align: left;
     font-size: 13.5px; line-height: 16px;
@@ -143,7 +148,7 @@ DL { margin: 5px 0 5px 15px; }
 .TB4 { text-align: center; margin: 8px 0 4px 0; color:#FFBB99; font-size: 12px; }
 .CNT { padding: 4px; color:#663300; font-size: 13.5px; text-align: left; float: left; word-break: break-all; word-wrap: break-word; overflow: auto; }
 .SY {
-    background-image: url("http://ccp.x0.to/bg0.png");
+    background-image: url("bg0.png");
     color:#330000; font-size: 13.5px;
     margin: 0; padding: 5px; border-radius: 10px;
     word-break: break-all; word-wrap: break-word; overflow-x: auto;
@@ -158,7 +163,7 @@ DL { margin: 5px 0 5px 15px; }
     width: 940px;
     margin: 0px auto;
     background-color: #220000;
-    background-image: url("http://ccp.x0.to/bgb.jpg");
+    background-image: url("bgb.jpg");
     position: relative;
     text-align: left;
 }
@@ -166,7 +171,7 @@ DL { margin: 5px 0 5px 15px; }
 .BT {
     width: 940px; height:150px;
     margin: 0;
-    background-image: url("http://ccp.x0.to/bt.png");
+    background-image: url("bt.png");
     position: relative;
     text-align: left;
 }
@@ -177,7 +182,7 @@ DL { margin: 5px 0 5px 15px; }
     width: 780px;
     margin: 0;
     background-color: #220000;
-    background-image: url("http://ccp.x0.to/bg1.jpg");
+    background-image: url("bg1.jpg");
     float: left;
     padding: 0;
 }
@@ -188,7 +193,7 @@ DL { margin: 5px 0 5px 15px; }
 .PROF {
     position: absolute; z-index:2;
     top: 32px; left: 365px; width: 150px; max-height: 360px; overflow-y: hidden;
-    background-image: url("http://ccp.x0.to/bgs.png");
+    background-image: url("bgs.png");
     padding: 5px; border-radius: 10px;
     text-align: left;
     color:#993300; font-size: 13px;
@@ -197,7 +202,7 @@ DL { margin: 5px 0 5px 15px; }
 .WIN1 {
     width: 350px; height: 414px;
     margin: 3px 0 0 4px;
-    background-image: url("http://ccp.x0.to/w350.png");
+    background-image: url("w350.png");
     padding: 0;
     text-align: center;
     word-break: break-all; word-wrap: break-word; overflow: auto;
@@ -205,7 +210,7 @@ DL { margin: 5px 0 5px 15px; }
 .WIN4 {
     width: 340px; height: 700px;
     margin: 6px 0px 10px 18px;
-    background-image: url("http://ccp.x0.to/w430.png");
+    background-image: url("w430.png");
     padding: 0;
     text-align: center;
     word-break: break-all; word-wrap: break-word; overflow: auto;
@@ -213,31 +218,31 @@ DL { margin: 5px 0 5px 15px; }
 .DEN {
     position: absolute; z-index:5;
     top: -38px; left: 360px; width: 480px;
-    background-image: url("http://ccp.x0.to/bg0.png");
+    background-image: url("bg0.png");
     padding: 2px; border-radius: 5px;
     text-align: left;
     font-size: 12px; font-weight: bold;
     word-break: break-all; word-wrap: break-word; overflow: auto;
 }
 .L1{ color:#990000; font-size: 12px; line-height: 20px; }
-.ST1 { color:#777700; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st2.png'); }
+.ST1 { color:#777700; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st2.png'); }
 .ST2 { color:#888800; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:left; }
-.ST3 { color:#BB5500; font-size: 12px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st1.png'); }
+.ST3 { color:#BB5500; font-size: 12px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st1.png'); }
 .ST4 { color:#CC3300; font-size: 12px; line-height: 20px; text-align:left; }
-.ST5 { color:#666600; font-size: 12px; line-height: 15px; text-align:center; background-image:url('http://ccp.x0.to/st2.png'); }
+.ST5 { color:#666600; font-size: 12px; line-height: 15px; text-align:center; background-image:url('st2.png'); }
 .ST6 { color:#336666; font-size: 12px; line-height: 16px; text-align:left; font-weight: bold; }
-.ST7 { color:#225588; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st3.png'); }
-.ST8 { color:#883300; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st4.png'); }
-.ST9 { color:#006633; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st5.png'); }
-.ST10{ color:#990066; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st6.png'); }
+.ST7 { color:#225588; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st3.png'); }
+.ST8 { color:#883300; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st4.png'); }
+.ST9 { color:#006633; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st5.png'); }
+.ST10{ color:#990066; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st6.png'); }
 .ST11{ color:#666600; font-size: 12px; line-height: 15px; }
-.ST12{ color:#0066CC; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:left; }
+.ST12{ color:#0066CC; font-size: 12px; line-height: 20px; font-weight: bold; text-align:left; }
 .ST13{ color:#009933; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:left; }
 .ST14{ color:#660000; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:left; }
 .ST15{ color:#CC0066; font-size: 13.5px; line-height: 20px; font-weight: bold; text-align:left; }
-.ST16{ color:#990066; font-size: 12px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st6.png'); }
-.ST17{ color:#664400; font-size: 12px; line-height: 15px; text-align:center; background-image:url('http://ccp.x0.to/st4.png'); }
-.ST18{ color:#BB5500; font-size: 9px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('http://ccp.x0.to/st1.png'); }
+.ST16{ color:#990066; font-size: 12px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st6.png'); }
+.ST17{ color:#664400; font-size: 12px; line-height: 15px; text-align:center; background-image:url('st4.png'); }
+.ST18{ color:#BB5500; font-size: 9px; line-height: 20px; font-weight: bold; text-align:center; background-image:url('st1.png'); }
 .ST19{ color:#990000; font-size: 12px; line-height: 16px; text-align:left; font-weight: bold; }
 
 
@@ -265,7 +270,7 @@ DL { margin: 5px 0 5px 15px; }
 .ARE{
   color:#663300;
   background-color:#FFFFFF;
-  border:1px solid #996633; 
+  border:1px solid #996633;
   scrollbar-face-color: #330000;
   scrollbar-highlight-color: #000000;
   scrollbar-shadow-color: #000000;
@@ -278,7 +283,7 @@ DL { margin: 5px 0 5px 15px; }
 .AREr{
   color:#666666;
   background-color:#DDDDDD;
-  border:1px solid #996633; 
+  border:1px solid #996633;
   scrollbar-face-color: #333333;
   scrollbar-highlight-color: #000000;
   scrollbar-shadow-color: #000000;
@@ -521,14 +526,14 @@ DL { margin: 5px 0 5px 15px; }
 /* êÌì¨ */
 .BA1{ color:#000088; font-weight: bold; }
 .BA2{ color:#660000; font-weight: bold; }
-.BAA1{ background-image:url('http://ccp.x0.to/bs1.png'); }
-.BAA2{ background-image:url('http://ccp.x0.to/bs2.png'); }
+.BAA1{ background-image:url('bs1.png'); }
+.BAA2{ background-image:url('bs2.png'); }
 .BS1{ color:#0066CC; font-weight: bold; }
 .BS2{ color:#CC6600; font-weight: bold; }
-.BSS1{ color:#0066CC; font-weight: bold; background-image:url('http://ccp.x0.to/bs.png'); }
-.BSS2{ color:#CC6600; font-weight: bold; background-image:url('http://ccp.x0.to/bs.png'); }
-.HK1{ color:#0066CC; font-weight: bold; font-size: 18px; font-weight: bold; font-style: italic; background-image:url('http://ccp.x0.to/bs1.png'); }
-.HK2{ color:#CC6600; font-weight: bold; font-size: 18px; font-weight: bold; font-style: italic; background-image:url('http://ccp.x0.to/bs2.png'); }
+.BSS1{ color:#0066CC; font-weight: bold; background-image:url('bs.png'); }
+.BSS2{ color:#CC6600; font-weight: bold; background-image:url('bs.png'); }
+.HK1{ color:#0066CC; font-weight: bold; font-size: 18px; font-weight: bold; font-style: italic; background-image:url('bs1.png'); }
+.HK2{ color:#CC6600; font-weight: bold; font-size: 18px; font-weight: bold; font-style: italic; background-image:url('bs2.png'); }
 .Z0{ color:#000000; }
 .Z1{ color:#b22222; font-weight: bold; }
 .Z2{ color:#20b2aa; font-weight: bold; }
@@ -537,7 +542,7 @@ DL { margin: 5px 0 5px 15px; }
 .Z5{ color:#b8860b; font-weight: bold; }
 .Z6{ color:#222244; font-weight: bold; }
 .SE{
-    background-image: url("http://ccp.x0.to/bgs.png");
+    background-image: url("bgs.png");
     margin: 2px 0; padding: 5px; border-radius: 10px;
     word-break: break-all; word-wrap: break-word; overflow-x: auto;
     display:inline-block;
