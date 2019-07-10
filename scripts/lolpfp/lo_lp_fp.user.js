@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Lo Lp Fp
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.4
 // @description  なんか Lp Fp だすやつ
 // @author       Ell
-// @include      http://ykamiya.ciao.jp/result*/result_pre/result_Pno*-*.html
+// @include      http://ykamiya.ciao.jp/result/result_pre/result_Pno*-*.html
 // @require      https://unpkg.com/axios/dist/axios.min.js
 // @updateURL    https://e-ll-c.github.io/scripts/lolpfp/lo_lp_fp.user.js
 // @installURL   https://e-ll-c.github.io/scripts/lolpfp/lo_lp_fp.user.js
@@ -77,6 +77,8 @@
 
   async function getBattleSetting () {
     let url = 'http://ykamiya.ciao.jp/cgi-bin/command2.cgi'
+
+https://data.teiki.org/lo_a/command_actions?e_no_form=4%2F368&is_go=on&is_wait=on&is_no_release=on
 
     for (const pt of [userList.slice(0, 5), userList.slice(5, 10)]) {
       if (!pt.length) {
