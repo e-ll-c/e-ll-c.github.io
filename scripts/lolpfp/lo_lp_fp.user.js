@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lo Lp Fp
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  なんか Lp Fp だすやつ
 // @author       Ell
 // @include      http://ykamiya.ciao.jp/result/result_pre/result_Pno*-*.html
@@ -38,6 +38,10 @@
   makeButton()
 
   async function handleAnalyze () {
+    if (stat !== 'initial') {
+      return
+    }
+
     stat = 'analyzing'
     const nyan = document.getElementById('nyan-button')
     nyan.classList.add(stat)
@@ -66,7 +70,6 @@
     css.insertRule('#page-top #nyan-button.analyzing { animation: nyannyan 2s linear infinite; }', 0)
     css.insertRule('#page-top #nyan-button.done { transform: scale(0.1); }', 0)
     css.insertRule('@keyframes nyannyan { 0% { transform: rotate(0deg) } 100% { transform: rotate(360deg) }}', 0)
-    stat = 'styled'
   }
 
   function makeButton () {
