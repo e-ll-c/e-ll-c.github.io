@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lo Lp Fp
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  なんか Lp Fp だすやつ
 // @author       Ell
 // @include      http://ykamiya.ciao.jp/result*/result_pre/result_Pno*-*.html
@@ -12,7 +12,7 @@
 // @grant        none
 // ==/UserScript==
 
-https://e-ll-c.github.io/scripts/lolpfp/lolpfp.user.js
+
 (function() {
   'use strict';
 
