@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lo Lp Fp
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  なんか Lp Fp だすやつ
 // @author       Ell
 // @include      http://ykamiya.ciao.jp/result/result_pre/result_Pno*-*.html
@@ -29,6 +29,7 @@
     chainConstruct: /にChain\d+：\*?(.+?)を構築$/,
     chain: /^Chain\d+：\*?(.+?)！$/,
     skillOnly: /^\*?(.+?)！$/,
+    chainFire: /の連鎖発動$/,
   }
 
   setStyle()
@@ -133,7 +134,7 @@
     }
   }
 
-  function getUser (table) {
+  function getUser (table, turn) {
     if (!table) {
       table = document.querySelector('table[width="698"]')
     }
@@ -148,7 +149,7 @@
 
       if (user.hasOwnProperty(type)) {
         if (user[type] !== n) {
-          console.log(`${type} ずれてる～: user ${user.pnName} 誤 ${user[type]} 正 ${n}`)
+          console.log(`${type} ずれてる～: trun ${turn} user ${user.pnName} 誤 ${user[type]} 正 ${n}`)
         }
       }
 
@@ -220,7 +221,7 @@
         }
       }
       else if (el.tagName === 'CENTER' && turn > 0) {
-        getUser(el.firstElementChild)
+        getUser(el.firstElementChild, turn)
       }
 
       el = el.nextElementSibling
@@ -271,42 +272,8 @@
         user = nameDict[m[1]]
         !user && console.log(line)
 
-        if (action === 'が先導する') {
-          chain = true
-          item = false
-          let chainCursor = el.nextElementSibling
-          let prev, fireUser
-
-          while (chainCursor) {
-            if (m = chainCursor.textContent.match(reg.switchUser)) {
-              if (m[2] === 'が後に続く') {
-                prev = chainCursor
-                fireUser = nameDict[m[1]]
-                !fireUser && console.log(chainCursor.textContent)
-              }
-              else {
-                chainCursor = prev
-                break
-              }
-            }
-
-            chainCursor = chainCursor.nextElementSibling
-          }
-
-          while (chainCursor) {
-            const action = parseSkillAction(chainCursor)
-            if (action) {
-              action.type = 'fire'
-              createSkillIndicator(chainCursor, fireUser, action)
-              break
-            }
-
-            chainCursor = chainCursor.nextElementSibling
-          }
-        }
-        else if (action === 'が後に続く') {
-          chain = true
-          item = false
+        if (action === 'が先導する' || action === 'が後に続く') {
+          // pass
         }
         else if (action === 'の効果が発動') {
           chain = false
@@ -315,6 +282,42 @@
         else {
           chain = false
           item = false
+        }
+      }
+      else if (m = line.trim().match(reg.chainFire)) {
+        chain = true
+        item = false
+        let chainCursor = el.nextElementSibling
+        let prev, fireUser
+
+        while (chainCursor) {
+          if (m = chainCursor.textContent.match(reg.switchUser)) {
+            const action = m[2]
+
+            if (action === 'が先導する' || action === 'が後に続く') {
+              prev = chainCursor
+              fireUser = nameDict[m[1]]
+              !fireUser && console.log(chainCursor.textContent)
+            }
+            else {
+              break
+            }
+          }
+
+          chainCursor = chainCursor.nextElementSibling
+        }
+
+        chainCursor = prev.nextElementSibling
+
+        while (chainCursor) {
+          const action = parseSkillAction(chainCursor)
+          if (action) {
+            action.type = 'fire'
+            createSkillIndicator(el, fireUser, action)
+            break
+          }
+
+          chainCursor = chainCursor.nextElementSibling
         }
       }
       else if (m = line.match(reg.fpDamage)) {
@@ -363,9 +366,10 @@
       }
 
       const slpfp = []
+      const fire = (action.type === 'fire') ? ` ${user.pnName} ${action.name}` : ''
       skill.lp && slpfp.push(`${skill.lp}LP`)
       skill.fp && slpfp.push(`${skill.fp}FP`)
-      tag = `<span class="lpfp">(${slpfp.join(' ')})</span> ${lpfp(user, skill.lp * -1, skill.fp * -1)}`
+      tag = `<span class="lpfp">${fire} (${slpfp.join(' ')})</span> ${lpfp(user, skill.lp * -1, skill.fp * -1)}`
     }
     else {
       tag = `<span class="lpfp-error">? → ? (ずれた)</span>`
