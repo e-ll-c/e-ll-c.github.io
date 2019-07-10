@@ -6,13 +6,13 @@
 // @author       Ell
 // @include      http://ykamiya.ciao.jp/result*/result_pre/result_Pno*-*.html
 // @require      https://unpkg.com/axios/dist/axios.min.js
-// @updateURL    https://e-ll-c.github.io/scripts/lolpfp/lolpfp.user.js
-// @installURL   https://e-ll-c.github.io/scripts/lolpfp/lolpfp.user.js
-// @downloadURL  https://e-ll-c.github.io/scripts/lolpfp/lolpfp.user.js
+// @updateURL    https://e-ll-c.github.io/scripts/lolpfp/lo_lp_fp.user.js
+// @installURL   https://e-ll-c.github.io/scripts/lolpfp/lo_lp_fp.user.js
+// @downloadURL  https://e-ll-c.github.io/scripts/lolpfp/lo_lp_fp.user.js
 // @grant        none
 // ==/UserScript==
 
-
+https://e-ll-c.github.io/scripts/lolpfp/lolpfp.user.js
 (function() {
   'use strict';
 
