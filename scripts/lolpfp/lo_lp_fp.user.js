@@ -214,7 +214,10 @@
         turn = Number(el.querySelector('b').textContent)
       }
       else if (el.tagName === 'DL' && turn > 0) {
-        analyzeTurn(el.firstElementChild)
+        const newCursor = analyzeTurn(el.firstElementChild)
+        if (newCursor) {
+          el = newCursor
+        }
       }
       else if (el.tagName === 'CENTER' && turn > 0) {
         getUser(el.firstElementChild)
@@ -256,6 +259,10 @@
     let user, chain, item
 
     while (el) {
+      if (el.tagName !== 'DD' && el.tagName !== 'DT') {
+        return el
+      }
+
       const line = el.textContent
       let m
 
