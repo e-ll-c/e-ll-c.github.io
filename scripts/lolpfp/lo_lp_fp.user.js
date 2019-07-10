@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lo Lp Fp
-// @namespace    http://tampermonkey.net/
-// @version      0.7
+// @namespace    http://ykamiya.ciao.jp/result/result_chara/result_Eno368.html
+// @version      1.0.0
 // @description  なんか Lp Fp だすやつ
 // @author       Ell
 // @include      http://ykamiya.ciao.jp/result/result_pre/result_Pno*-*.html
@@ -38,7 +38,7 @@
   makeButton()
 
   async function handleAnalyze () {
-    if (stat !== 'initial') {
+    if (stat !== 'ready') {
       return
     }
 
