@@ -95,7 +95,7 @@
         res = await axios.get(url, { params: param, responseType: 'document' })
       }
       catch (e) {
-        console.log(error.response ? error.response.statusText : error.message)
+        console.log(e.response ? e.response.statusText : e.message)
         return false
       }
 
