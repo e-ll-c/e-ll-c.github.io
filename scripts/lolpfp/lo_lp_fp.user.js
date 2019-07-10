@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lo Lp Fp
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  なんか Lp Fp だすやつ
 // @author       Ell
 // @include      http://ykamiya.ciao.jp/result*/result_pre/result_Pno*-*.html
