@@ -50,6 +50,7 @@
         parent.removeChild(enoText)
         parent.insertBefore(span, anchor)
         span.addEventListener('click', handleEnter, { passive: true })
+        document.body.classList.add('nyan-popup--touch')
       }
       else {
         anchor.dataset.eno = eno
@@ -184,35 +185,10 @@
       return
     }
 
-    console.log(res.data)
-    /*
-    return fetch(url, { mode: 'cors' })
-      .then(response => response.text())
-      .then(text => {
-        console.log(text);
-        const style = document.createElement('style');
-        style.setAttribute('type', 'text/css');
-        style.textContent = text;
-        document.getElementsByTagName('head').item(0).appendChild(style);
-        document.getElementById('elts-selector').style.display = 'block';
-      });
-
-    const css = document.styleSheets[0]
-    css.insertRule('.nyan-popup__header { margin: 0; display: flex; align-items: center; justify-content: space-between; }', 0)
-    css.insertRule('#nyan-popup ::-webkit-scrollbar, #nyan-popup::-webkit-scrollbar { width: 12px; height: 12px; }', 0)
-    css.insertRule('#nyan-popup ::-webkit-scrollbar-track, #nyan-popup::-webkit-scrollbar-track { background-color: #080808; }', 0)
-    css.insertRule('#nyan-popup ::-webkit-scrollbar-thumb, #nyan-popup::-webkit-scrollbar-thumb { background-color: #333333; }', 0)
-    css.insertRule('#nyan-popup { position: fixed; top: 0; right: 30px; margin: 30px auto; width: 600px; z-index: 1; background: rgba(20, 20, 20, .95); border: solid #000 1px; border-radius: 4px; box-shadow: rgba(0, 0, 0, .5) 1px 2px 5px; padding: .5rem; font-size: .8rem; max-height: calc(100vh - 60px - 1rem); min-width: 500px; display: none; overflow-y: auto; }', 0)
-    css.insertRule('.nyan-popup--open #nyan-popup { display: block; }', 0)
-    css.insertRule('.nyan-popup__text { white-space: pre-wrap; }', 0)
-    css.insertRule('.nyan-popup__images { display: flex; overflow-x: auto; margin-bottom: .5rem; }', 0)
-    css.insertRule('.nyan-popup__images img { height: 250px; width: auto; margin-right: 2px; }', 0)
-    css.insertRule('.nyan-popup__header nav { display: flex; }', 0)
-    css.insertRule('.nyan-popup__header nav > span { width: 32px; height: 32px; font-weight: bold; background: rgba(60, 60, 60); text-align: center; line-height: 32px; font-size: 20px; opacity: .7; border-radius: 50%; cursor: pointer; margin-left: .5rem }', 0)
-    css.insertRule('.nyan-popup--loading .nyan-popup__header nav > span { animation: nyannyan 2s linear infinite; }', 0)
-    css.insertRule('.nyan__nav__prev, .nyan__nav__next { display: none; }', 0)
-    css.insertRule('.nyan-popup--has-prev .nyan__nav__prev, .nyan-popup--has-next .nyan__nav__next { display: block; }', 0)
-    css.insertRule('@keyframes nyannyan { 0% { transform: rotate(0deg) } 100% { transform: rotate(360deg) }}', 0)*/
+    const style = document.createElement('style')
+    style.setAttribute('type', 'text/css')
+    style.textContent = res.data
+    document.getElementsByTagName('head').item(0).appendChild(style)
   }
 
   function makePopup () {

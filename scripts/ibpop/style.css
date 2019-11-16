@@ -33,7 +33,6 @@
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, .5) 1px 2px 5px;
   padding: .5rem;
-  font-size: .8rem;
   max-height: calc(100vh - 60px - 1rem);
   min-width: 500px;
   display: none;
@@ -46,6 +45,11 @@
 
 .nyan-popup__text {
   white-space: pre-wrap;
+  font-size: .8rem;
+}
+
+.nyan-popup--touch .nyan-popup__text {
+  font-size: 1rem;
 }
 
 .nyan-popup__images {
