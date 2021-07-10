@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "commander": "^8.0.0",
+    "ejs": "^3.1.6",
+    "jsdom": "^16.6.0",
+    "url-join": "^4.0.1"
+  }
+}

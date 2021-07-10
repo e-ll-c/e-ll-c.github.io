@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Challenge Dungeon <%= date %></title>
+    <link rel="stylesheet" href="<%= webroot %>style/challedun-index.css">
+  </head>
+  <body>
+    <h1><%= date %></h1>
+
+    <nav><a href="<%= webroot %>challedun">index</a></nav>
+
+    <%- include('./day', { date, floors, className: 'day--individual' }) %>
+  </body>
+</html>
+

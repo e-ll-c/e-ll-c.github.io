@@ -1,0 +1,418 @@
+*{
+	-webkit-text-size-adjust: 100%;
+	font-family: 'MS PGothic','monospace', 'sans-serif';
+	line-height: 1.4em;
+	-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+body::after{
+	background: url("/SoLA/img/bg_sunset.png") no-repeat left top;
+	background-size: contain;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 45%;
+	height: 45%;
+	content: "";
+	z-index: -1;
+}
+body::before{
+	background: linear-gradient( 180deg, rgba(76, 200, 222, 0.4), rgba(241, 176, 79, 0.7) ) no-repeat left top;
+	background-size: 100% auto;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 150%;
+	content: "";
+	z-index: -1;
+}
+body{
+	margin: 0px;
+	position: relative;
+	overflow-y: scroll;
+}
+
+.center {
+	position: relative;
+	text-align: center;
+}
+#main {
+	color: rgb(32, 46, 64);
+	position: relative;
+	margin: 0px auto;
+	width: 1000px;
+	min-height: 100vh;
+	overflow: visible;
+	font-size: 14px;
+}
+
+table{
+	padding: 1px 1px;
+	color: rgb(32, 46, 64);
+	font-size: 14px;
+}
+
+table th{
+	padding: 5px 5px;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: rgb(32, 46, 64);
+	font-size: 14px;
+	font-weight: normal;
+	word-break: break-all;
+}
+
+table td{
+	padding: 5px 5px;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: rgb(32, 46, 64);
+	font-size: 14px;
+	font-weight: normal;
+}
+
+a:link { color: rgb(32, 46, 64); }
+a:visited { color: rgb(32, 46, 64); }
+
+.container {
+	position: relative;
+	padding: 20px;
+}
+nav {
+	display: block;
+	float: right;
+	clear: both;
+	width: 25%;
+	margin: 10px;
+	padding: 20px;
+	border: double 5px #888888;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.height {
+	display: block;
+	float: right;
+	clear: both;
+	width: 25%;
+	height: 50%;
+	margin: 10px;
+	padding: 20px;
+}
+inline {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	clear: both;
+	margin: 1px;
+	padding: 0px;
+}
+section {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 70%;
+	padding: 0px 0px 20px;
+}
+section-left {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 70%;
+	padding: 0px 0px 20px;
+}
+pagetitle {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	padding: 0px;
+}
+profile {
+	display: inline-block;
+	vertical-align: bottom;
+	clear: both;
+	width: 100%;
+	margin: 1px;
+	padding: 10px;
+	text-align: left;
+	border: double 3px #AAAAAA;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	clear: both;
+	margin:	1px;
+	padding-left: 3px;
+	border: double 3px #AAAAAA;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	width: 1000px;
+	text-align: center;
+	padding: 10px;
+}
+afterfloat {
+	content: "";
+	display: block;
+	clear: both;
+}
+.rule-box{
+	display: inline-block;
+	vertical-align: top;
+	clear: both;
+	width: 70%;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	padding: 20px;
+	border: double 5px #888888;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+#form{
+	background-color: rgba(255, 255, 255, 0.6);
+	position: relative;
+	border: double 5px #888888;
+	padding: 20px;
+	float: right;
+	width: 50%;
+	font-size: 20px;
+}
+.title{
+	border: double 3px #AAAAAA;
+	display: block;
+	text-align: left;
+	width: 30%;
+	padding: 10px 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.charaintro {
+	display: block;
+	text-align: left;
+	padding: 10px;
+	height: 80px;
+	margin: 25px 5% 25px 5%;
+	border-width: 1px;
+	border-color: #888888;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.story {
+	display: block;
+	text-align: left;
+	line-height: 60px;
+	padding: 10px;
+	margin: 10px 3% 10px 3%;
+	border-width: 1px;
+	border-color: #888888;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.story > br {
+	display: block;
+	text-align: left;
+	line-height: 60px;
+	padding: 10px;
+	margin: 10px 3% 10px 3%;
+	border-width: 1px;
+	border-color: #888888;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.story:empty {
+	display: none;
+}
+.n-text {
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	padding: 10px;
+	margin: 10px 3% 10px 3%;
+	border-width: 1px;
+	border-color: #888888;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+form{
+	margin: 0px;
+}
+.start {
+	display: block;
+	padding: 20px;
+	margin: 10px 10% 10px 10%;
+	text-align: left;
+	border-width: 1px;
+	border-color: #888888;
+	border-style: solid;
+	background-color: rgba(225, 255, 225, 0.3);
+}
+.start:empty {
+	display: none;
+}
+.cutin {
+	display: block;
+	clear: both;
+	padding: 5px;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+.leftturn {
+	display: block;
+	padding: 20px;
+	margin: 10px 25% 10px 10px;
+	text-align: left;
+	border-width: 1px;
+	border-color: #888888;
+	border-style: solid;
+	background-color: rgba(225, 225, 255, 0.3);
+}
+.leftturn:empty {
+	display: none;
+}
+.rightturn {
+	display: block;
+	padding: 20px;
+	margin: 10px 10px 10px 25%;
+	text-align: left;
+	border-width: 1px;
+	border-color: #888888;
+	border-style: solid;
+	background-color: rgba(255, 225, 225, 0.3);
+}
+.rightturn:empty {
+	display: none;
+}
+.line-break {
+	word-wrap: break-word;
+	white-space: normal;
+	display: block;
+}
+.chkbox input[type=checkbox] {
+	width:			24px;
+	height:			24px;
+}
+.chkbox input[type=radio] {
+	width:			18px;
+	height:			18px;
+}
+.equip {
+	color: rgb(8, 16, 235);
+}
+.equippvp {
+	color: rgb(235, 16, 8);
+}
+.error {
+	font-size: 18px;
+	font-weight: bolder;
+	color: red;
+}
+.chat_box {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.statusinfo {
+	position: absolute;
+	top: 230px;
+	right: 22.5%;
+	border: 0px;
+	width: 40px;
+	height: 40px;
+	float: right;
+	pointer-events: none;
+}
+.chatinfo {
+	position: absolute;
+	top: 368px;
+	right: 22.5%;
+	border: 0px;
+	width: 40px;
+	height: 40px;
+	float: right;
+	pointer-events: none;
+}
+.noticeinfo {
+	position: absolute;
+	top: 528px;
+	right: 22.5%;
+	border: 0px;
+	width: 40px;
+	height: 40px;
+	float: right;
+	pointer-events: none;
+}
+.messageinfo {
+	position: absolute;
+	top: 670px;
+	right: 22.5%;
+	border: 0px;
+	width: 40px;
+	height: 40px;
+	float: right;
+	pointer-events: none;
+}
+.bbsreply{
+	font-size: 12px;
+	padding: 2px;
+	border: 3px double #888888;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.skill{
+	color: #0d6900;
+}
+.powerup{
+	color: #847701;
+}
+.downbody{
+	color: #7c3127;
+}
+.downmental{
+	color: #0d5867;
+}
+.other{
+	color: black;
+}
+.noweffect {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 50%;
+	display: none;
+	padding: 2px;
+	background-color: azure;
+	z-index: 10;
+}
+.effect:hover .noweffect {
+	display: inline-block;
+}
+.sklexpoya{
+	position: relative;
+	border-bottom:dotted;
+	border-color: #00BB00;
+	border-width:2px;
+}
+.sklexpoya:hover{
+	font-weight: bold;
+}
+.sklexp {
+	position: absolute;
+	top: 1em;
+	left: 0px;
+	width: 300px;
+	display: none;
+	padding: 2px;
+	font-weight: normal;
+	background-color: azure;
+	border: solid;
+	border-color: lightblue;
+	border-width: 2px;
+	z-index: 10;
+}
+.sklexpoya:hover > .sklexp {
+	display: inline-block;
+}
+.sklexpoya:active > .sklexp {
+	display: inline-block;
+}

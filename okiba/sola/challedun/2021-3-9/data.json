@@ -1,0 +1,73 @@
+{
+  "floors": [
+    {
+      "path": "/okiba/sola/challedun/2021-3-9/211.html",
+      "floor": "211",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "657",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=sorururi17&file=icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "サポテン",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/sabob_1.gif",
+          "name": "花サボテン",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/sabod_1.gif",
+          "name": "サボテン？",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/saboa_1.gif",
+          "name": "サボテン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/saboc_1.gif",
+          "name": "サボテン！",
+          "role": "attacker"
+        }
+      ]
+    }
+  ],
+  "date": "2021-3-9"
+}

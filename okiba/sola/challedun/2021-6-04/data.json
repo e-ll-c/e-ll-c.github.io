@@ -1,0 +1,351 @@
+{
+  "floors": [
+    {
+      "path": "/okiba/sola/challedun/2021-6-04/373.html",
+      "floor": "373",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ベンチA",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ご近所からの視線",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "シーソー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ベンチB",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ジャングルジム",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-04/374.html",
+      "floor": "374",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "シーソー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "滑り台",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブランコ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ジャングルジム",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "スワン・レイクの手下",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-04/375.html",
+      "floor": "375",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "シーソー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "スワン・レイクの手下",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ご近所からの視線",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブランコ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "滑り台",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-04/376.html",
+      "floor": "376",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/eleanor_1.png",
+          "name": "エレノア",
+          "role": "no_class"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "スワン・レイクの手下",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ジャングルジム",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "滑り台",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "シーソー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ご近所からの視線",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-04/377.html",
+      "floor": "377",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブランコ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "スワン・レイクの手下",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "シーソー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "滑り台",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ジャングルジム",
+          "role": "tank"
+        }
+      ]
+    }
+  ],
+  "date": "2021-6-04"
+}

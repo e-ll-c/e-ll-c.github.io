@@ -1,0 +1,76 @@
+
+body {
+  margin: 1rem 1.5rem;
+}
+
+nav {
+  margin: 2rem 0;
+}
+
+@media (min-width: 600px) {
+  .day {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+  }
+
+  .day__header__content {
+    position: sticky;
+    top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+
+.floor-list {
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.floor {
+  display: grid;
+  grid-template-columns: 5rem auto;
+  column-gap: 4px;
+  margin: 8px 0;
+}
+
+.floor__title {
+  margin: 0;
+}
+
+.party {
+  display: flex;
+}
+
+.party__member {
+  width: 30px;
+  margin-right: 4px;
+}
+
+.party__member img {
+  max-width: 100%;
+  display: block;
+}
+
+.party__member--healer {
+  border-bottom: 4px #24c627 solid;
+}
+
+.party__member--attacker {
+  border-bottom: 4px #e73548 solid;
+}
+
+.party__member--support {
+  border-bottom: 4px #d27c1c solid;
+}
+
+.party__member--tank {
+  border-bottom: 4px #3563e7 solid;
+}
+
+.party--pc .member--npc {
+  display: none;
+}
+
+.day--individual .day__title {
+  display: none;
+}

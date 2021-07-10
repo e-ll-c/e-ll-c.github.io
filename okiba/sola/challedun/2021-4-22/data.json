@@ -1,0 +1,1297 @@
+{
+  "floors": [
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/241.html",
+      "floor": "241",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサーA",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリル",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサーB",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/242.html",
+      "floor": "242",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ダークカンガルー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラA",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "アルマジロ",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラB",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/243.html",
+      "floor": "243",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ウィザードドッグ",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリル",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "アルマジロ",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/244.html",
+      "floor": "244",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "アルマジロA",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "アルマジロB",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサー",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/245.html",
+      "floor": "245",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリル",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "アルマジロA",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "アルマジロB",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサー",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/247.html",
+      "floor": "247",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラA",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリル",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ダークカンガルー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラB",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサー",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/248.html",
+      "floor": "248",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリル",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ダークカンガルー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "アルマジロ",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/249.html",
+      "floor": "249",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリル",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ブラックパンサー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラA",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラB",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/250.html",
+      "floor": "250",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリルA",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "キマイラ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エビルオオハシ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ウィザードドッグ",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "マントマンドリルB",
+          "role": "healer"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/251.html",
+      "floor": "251",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレント",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ゴライアススカシバ",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "眠りの大樹",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/alraune_1.png",
+          "name": "魅惑のアルラウネ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/smile_1.png",
+          "name": "ホホエミカワセミ",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/252.html",
+      "floor": "252",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/smile_1.png",
+          "name": "ホホエミカワセミ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレントA",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "眠りの大樹",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "フォレストドラゴン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレントB",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/253.html",
+      "floor": "253",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレント",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "カースリザード",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/alraune_1.png",
+          "name": "魅惑のアルラウネ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "眠りの大樹",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ゴライアススカシバ",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/255.html",
+      "floor": "255",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/alraune_1.png",
+          "name": "魅惑のアルラウネ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ゴライアススカシバ",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "フォレストドラゴン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "カースリザード",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "眠りの大樹",
+          "role": "healer"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/256.html",
+      "floor": "256",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/alraune_1.png",
+          "name": "魅惑のアルラウネ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "フォレストドラゴン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "カースリザード",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/smile_1.png",
+          "name": "ホホエミカワセミ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレント",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/257.html",
+      "floor": "257",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレント",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/alraune_1.png",
+          "name": "魅惑のアルラウネ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "フォレストドラゴン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/smile_1.png",
+          "name": "ホホエミカワセミ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "カースリザード",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/258.html",
+      "floor": "258",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/alraune_1.png",
+          "name": "魅惑のアルラウネ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "眠りの大樹",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "カースリザード",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ゴライアススカシバ",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレント",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/259.html",
+      "floor": "259",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ゴライアススカシバA",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/smile_1.png",
+          "name": "ホホエミカワセミ",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "眠りの大樹",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "カースリザード",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ゴライアススカシバB",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/260.html",
+      "floor": "260",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "眠りの大樹",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ソーサルトレント",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "フォレストドラゴン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/alraune_1.png",
+          "name": "魅惑のアルラウネ",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "カースリザード",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-4-22/261.html",
+      "floor": "261",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "healer"
+        },
+        {
+          "eno": "999",
+          "icon": "https://cdn.discordapp.com/attachments/789391579554906112/791184305035673631/No.90-icon-00.png",
+          "name": "",
+          "role": "support"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "強化術使いの冒険者",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "冒険者の踊り子",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "魔法使いの冒険者",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "剣と盾使いの冒険者",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "斧使いの冒険者",
+          "role": "attacker"
+        }
+      ]
+    }
+  ],
+  "date": "2021-4-22"
+}

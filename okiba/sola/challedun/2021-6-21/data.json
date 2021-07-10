@@ -1,0 +1,345 @@
+{
+  "floors": [
+    {
+      "path": "/okiba/sola/challedun/2021-6-21/331.html",
+      "floor": "331",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "傭兵の戦術家",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "雇われ衛生兵A",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "雇われ衛生兵B",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "大柄な傭兵",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険なアウトロー",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-21/332.html",
+      "floor": "332",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "大柄な傭兵A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "やさぐれ傭兵",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "あらくれガンマン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険なアウトロー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "大柄な傭兵B",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-21/333.html",
+      "floor": "333",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "やさぐれ傭兵",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "雇われ衛生兵",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "傭兵の戦術家",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "大柄な傭兵",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険なアウトロー",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-21/334.html",
+      "floor": "334",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "大柄な傭兵A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "雇われ衛生兵",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "やさぐれ傭兵",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "あらくれガンマン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "大柄な傭兵B",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-21/335.html",
+      "floor": "335",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "傭兵の戦術家",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険なアウトローA",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "あらくれガンマン",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "雇われ衛生兵",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険なアウトローB",
+          "role": "attacker"
+        }
+      ]
+    }
+  ],
+  "date": "2021-6-21"
+}

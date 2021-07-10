@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Challenge Dungeon</title>
+    <link rel="stylesheet" href="<%= webroot %>style/challedun-index.css">
+  </head>
+  <body>
+    <h1>Challenge Dungeon</h1>
+
+    <div class="day-list">
+      <% for (let day of data) { %>
+        <%- include('./day', { date: day.date, floors: day.floors, className: 'day--index' }) %>
+      <% } %>
+    </div>
+  </body>
+</html>

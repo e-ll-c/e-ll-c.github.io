@@ -1,0 +1,9 @@
+<div class="party__member party__member--<%= member.role %>" >
+<% if (member.eno) { %>
+  <a class="member--pc" href="http://lostartifact.xsrv.jp/SoLA/main.php?id=<%= member.eno %>">
+    <img src="<%= member.icon %>" alt="<%= member.name %>" />
+  </a>
+<% } else { %>
+  <img class="member--npc" src="<%= member.icon %>" alt="<%= member.name %>" />
+<% } %>
+</div>

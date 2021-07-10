@@ -1,13 +1,13 @@
 *{
 	-webkit-text-size-adjust: 100%;
-	font-family: 'MS PGothic','monospace', 'sans-serif';
+	font-family: 'sans-serif';
 	line-height: 1.4em;
 	-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 			box-sizing: border-box;
 }
 body::after{
-	background: url("/SoLA/img/bg_day.png") no-repeat left top;
+	background: url("../img/bg_day.png") no-repeat left top;
 	background-size: contain;
 	display: block;
 	position: fixed;
@@ -415,4 +415,12 @@ form{
 }
 .sklexpoya:active > .sklexp {
 	display: inline-block;
+}
+
+b[style="font-size:20px;"],
+b[style="font-size:22px;"] {
+	font-family: Arial;
+	font-weight: 200;
+	padding: 0 2px;
+	color: #000;
 }

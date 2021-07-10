@@ -1,0 +1,277 @@
+{
+  "floors": [
+    {
+      "path": "/okiba/sola/challedun/2021-3-2/172.html",
+      "floor": "172",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "657",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=sorururi17&file=icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/deepone_1.png",
+          "name": "神出鬼没",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/wandering_thing_1.png",
+          "name": "さまようもの",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/disappearing_1.png",
+          "name": "消えゆくもの",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unknown_1.png",
+          "name": "未知の存在",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unanalyzable_1.png",
+          "name": "解析不能",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-3-2/173.html",
+      "floor": "173",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "657",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=sorururi17&file=icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/nsp_1.png",
+          "name": "非科学的現象",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/wandering_thing_1.png",
+          "name": "さまようもの",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/disappearing_1.png",
+          "name": "消えゆくもの",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/deepone_1.png",
+          "name": "神出鬼没",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unknown_1.png",
+          "name": "未知の存在",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-3-2/174.html",
+      "floor": "174",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "657",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=sorururi17&file=icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/deepone_1.png",
+          "name": "神出鬼没",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unidentified_1.png",
+          "name": "正体不明",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/disappearing_1.png",
+          "name": "消えゆくもの",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unanalyzable_1.png",
+          "name": "解析不能",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/wandering_thing_1.png",
+          "name": "さまようもの",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-3-2/175.html",
+      "floor": "175",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "195",
+          "icon": "https://dl.dropboxusercontent.com/s/cf94pb4te6cc9fg/kyuu_icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "657",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=sorururi17&file=icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "",
+          "role": "healer"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unknown_1.png",
+          "name": "未知の存在A",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unidentified_1.png",
+          "name": "正体不明",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/nsp_1.png",
+          "name": "非科学的現象",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/unknown_1.png",
+          "name": "未知の存在B",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/disturbance_1.png",
+          "name": "撹乱するもの",
+          "role": "attacker"
+        }
+      ]
+    }
+  ],
+  "date": "2021-3-2"
+}

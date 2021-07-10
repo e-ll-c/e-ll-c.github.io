@@ -1,0 +1,30 @@
+
+<div class="day <%= className %>">
+  <div class="day__header">
+    <div class="day__header__content">
+      <h2 class="day__title"><a href="<%= date %>"><%= date %></a></h2>
+
+      <div class="party party--pc">
+        <% for (let member of floors[0].party) { %>
+          <%- include('./member', { member }) %>
+        <% } %>
+      </div>
+    </div>
+  </div>
+
+  <ul class="floor-list">
+    <% for (let f of floors) { %>
+    <li class="floor">
+      <h3 class="floor__title">
+        <a href="<%= f.path %>"><%= f.floor %></a>
+      </h3>
+
+      <div class="party party--enemy">
+        <% for (let member of f.enemy) { %>
+          <%- include('./member', { member }) %>
+        <% } %>
+      </div>
+    </li>
+    <% } %>
+  </ul>
+</div>

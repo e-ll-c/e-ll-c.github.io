@@ -1,0 +1,1093 @@
+{
+  "floors": [
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/351.html",
+      "floor": "351",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命A",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命B",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/352.html",
+      "floor": "352",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌B",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/353.html",
+      "floor": "353",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命A",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/reincarnation_1.png",
+          "name": "輪廻",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命B",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/354.html",
+      "floor": "354",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰A",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰B",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌B",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/355.html",
+      "floor": "355",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命A",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/reincarnation_1.png",
+          "name": "輪廻",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命B",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/356.html",
+      "floor": "356",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧B",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/357.html",
+      "floor": "357",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化A",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰A",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化B",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰B",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/358.html",
+      "floor": "358",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌B",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/359-1.html",
+      "floor": "359-1",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/reincarnation_1.png",
+          "name": "輪廻A",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/reincarnation_1.png",
+          "name": "輪廻B",
+          "role": "healer"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/359-2.html",
+      "floor": "359-2",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/chaos_1.png",
+          "name": "混沌",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/evolution_1.png",
+          "name": "進化",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/360.html",
+      "floor": "360",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/peace_1.png",
+          "name": "安寧",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命A",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/life_1.png",
+          "name": "生命B",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/selection_1.png",
+          "name": "淘汰",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/reincarnation_1.png",
+          "name": "輪廻",
+          "role": "healer"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/361-1.html",
+      "floor": "361-1",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の戦闘教官A",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の曲技士",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の剣士",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の唄詠み",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の戦闘教官B",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/361-2.html",
+      "floor": "361-2",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の戦闘教官",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_wizards_1.png",
+          "name": "守護者の法術師",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_holy_warrior_1.png",
+          "name": "守護者の聖戦士",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の剣士",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の唄詠み",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/361-3.html",
+      "floor": "361-3",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の剣士",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_holy_warrior_1.png",
+          "name": "守護者の聖戦士A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の戦闘教官A",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_holy_warrior_1.png",
+          "name": "守護者の聖戦士B",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の戦闘教官B",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/362.html",
+      "floor": "362",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_holy_warrior_1.png",
+          "name": "守護者の聖戦士A",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の戦闘教官",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の唄詠み",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_wizards_1.png",
+          "name": "守護者の法術師",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_holy_warrior_1.png",
+          "name": "守護者の聖戦士B",
+          "role": "tank"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-6-25/363.html",
+      "floor": "363",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "attacker"
+        },
+        {
+          "eno": "574",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=yamamoto&file=zeda_Icon00.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "188",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=iconprofile0523&file=Aurum_emblem.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "243",
+          "icon": "https://cdn.discordapp.com/attachments/706909291973574666/784946512136372224/V_I60.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "969",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=jacta&file=default_icon.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の曲技士",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の唄詠み",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_holy_warrior_1.png",
+          "name": "守護者の聖戦士",
+          "role": "tank"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/g_wizards_1.png",
+          "name": "守護者の法術師",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "守護者の戦闘教官",
+          "role": "support"
+        }
+      ]
+    }
+  ],
+  "date": "2021-6-25"
+}
