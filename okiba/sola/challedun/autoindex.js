@@ -4,7 +4,8 @@ import path from 'path'
 import ejs from 'ejs'
 import urljoin from 'url-join'
 import { JSDOM } from 'jsdom'
-import { Command } from 'commander/esm.mjs';
+import { Command } from 'commander/esm.mjs'
+import { parse, compareDesc } from 'date-fns'
 
 
 const program = new Command()
@@ -15,19 +16,18 @@ program
   .parse(process.argv)
 const options = program.opts()
 
-main()
+update()
 
 
 
-async function main () {
+async function update () {
   const dir = options.path
 
   const days = fs.readdirSync(dir, { withFileTypes: true })
     .filter(entry => entry.isDirectory())
     .map(({ name }) => name)
-    .filter(day => /^[-_\d]+$/.test(day))
-    .sort()
-    .reverse()
+    .filter(date => /^[-\d]+$/.test(date))
+    .sort((a, b) => compareDesc(parse(a, 'y-M-d', new Date()), parse(b, 'y-M-d', new Date())))
 
   const data = await Promise.all(days.map(async day => {
       const dataPath = path.join(dir, day, 'data.json'),
