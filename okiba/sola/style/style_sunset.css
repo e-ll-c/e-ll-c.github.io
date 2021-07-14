@@ -1,11 +1,12 @@
 *{
 	-webkit-text-size-adjust: 100%;
-	font-family: font-family: sans-serif;
+	font-family: sans-serif;
 	line-height: 1.4em;
 	-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 			box-sizing: border-box;
 }
+
 body::after{
 	background: url("../img/bg_sunset.png") no-repeat left top;
 	background-size: contain;
