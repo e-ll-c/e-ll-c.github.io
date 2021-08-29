@@ -136,21 +136,28 @@
     "index": 19,
     "name": "20.png",
     "width": 800,
-    "height": 792,
+    "height": 738,
     "top": 14530
   },
   {
     "index": 20,
     "name": "21.png",
     "width": 800,
-    "height": 774,
-    "top": 15322
+    "height": 720,
+    "top": 15268
   },
   {
     "index": 21,
     "name": "22.png",
     "width": 800,
-    "height": 800,
-    "top": 16096
+    "height": 432,
+    "top": 15988
+  },
+  {
+    "index": 22,
+    "name": "23.png",
+    "width": 800,
+    "height": 576,
+    "top": 16420
   }
 ]
