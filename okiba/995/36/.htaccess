@@ -1,0 +1,12 @@
+
+RewriteEngine on
+
+RewriteRule .* - [E=X_DEVICE:PC]
+RewriteCond %{HTTP_USER_AGENT} "android|blackberry|ipad|iphone|ipod|iemobile|opera mobile|palmos|webos|googlebot-mobile" [NC]
+RewriteRule .* - [E=X_DEVICE:SMARTPHONE]
+
+RewriteCond %{ENV:X_DEVICE} SMARTPHONE
+RewriteRule \d+\.png /text-dpr2/$1 [L]
+
+RewriteCond %{ENV:X_DEVICE} PC
+RewriteRule \d+\.png /text-dpr1/$1 [L]
