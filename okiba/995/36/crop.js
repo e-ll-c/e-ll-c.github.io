@@ -7,20 +7,30 @@ import { Command } from 'commander/esm.mjs'
 const program = new Command()
 program
   .option('--dpr <dpr>', 'dpr', 1)
+  .option('--dir <dir>', 'dir', 'text-dpr')
+  .option('--n <index>', 'index', -1)
   .parse(process.argv)
-const dpr = program.opts().dpr
-const sizes =JSON.parse(fs.readFileSync('grid.json', 'utf-8'))
+
+const opts = program.opts()
+const dpr = opts.dpr
+const dir = (opts.dir === '.') ? '.' : opts.dir + dpr
+const index = ~~ opts.n
+const sizes = JSON.parse(fs.readFileSync('grid.json', 'utf-8'))
 const image = sharp(`all-dpr${dpr}.png`)
 
 
 sizes.forEach(e => {
+  if (index !== -1 && e.index !== index) {
+    return
+  }
+
   image.extract({
     width: e.width * dpr,
     height: (e.height - 5) * dpr,
     left: 0,
     top: (e.top + 5) * dpr,
   })
-  .toFile(path.join(`text-dpr${dpr}`, e.name))
+  .toFile(path.join(dir, e.name))
   .then(info => {
     //console.log(info)
   })
