@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>icon list</title>
+  </head>
+
+<style type="text/css">
+  #indicator {
+    position: fixed;
+    top: .5rem;
+    left: .5rem;
+    background: rgba(255, 255, 255, .8);
+  }
+
+  body {
+    margin-top: calc(150px + .5rem);
+  }
+
+  img {
+    width: 120px;
+    height: 120px;
+  }
+</style>
+
+  <body>
+
+<div id="indicator">
+  <img id="preview" src="empty.png" />
+  <span id="indicator__text">クリックするとこぴーします</span>
+</div>
+
+
+<div id="icons">
+<img src="empty.png" />
+<img src="1.png" />
+<img src="2.png" />
+<img src="3.png" />
+<img src="5.png" />
+<img src="6.png" />
+<img src="7.png" />
+<img src="8.png" />
+<img src="9.png" />
+<img src="10.png" />
+<img src="11.png" />
+<img src="12.png" />
+<img src="28.png" />
+<img src="29.png" />
+<img src="34.png" />
+<img src="36.png" />
+<img src="44.png" />
+<img src="51.png" />
+<img src="52.png" />
+<img src="74.png" />
+<img src="76.png" />
+<img src="82.png" />
+<img src="84.png" />
+<img src="86.png" />
+<img src="88.png" />
+<img src="89.png" />
+<img src="92.png" />
+<img src="94.png" />
+<img src="96.png" />
+<img src="115.png" />
+<img src="117.png" />
+<img src="118.png" />
+<img src="119.png" />
+<img src="120.png" />
+<img src="121.png" />
+<img src="122.png" />
+<img src="123.png" />
+<img src="124.png" />
+<img src="125.png" />
+<img src="126.png" />
+<img src="130.png" />
+<img src="131.png" />
+<img src="132.png" />
+<img src="138.png" />
+<img src="141.png" />
+<img src="143.png" />
+<img src="144.png" />
+<img src="145.png" />
+<img src="146.png" />
+<img src="147.png" />
+<img src="148.png" />
+<img src="150.png" />
+<img src="151.png" />
+<img src="152.png" />
+<img src="153.png" />
+<img src="155.png" />
+<img src="156.png" />
+<img src="157.png" />
+<img src="158.png" />
+<img src="159.png" />
+<img src="160.png" />
+<img src="162.png" />
+<img src="163.png" />
+<img src="164.png" />
+<img src="165.png" />
+<img src="168.png" />
+<img src="169.png" />
+<img src="171.png" />
+<img src="172.png" />
+<img src="173.png" />
+<img src="174.png" />
+<img src="178.png" />
+<img src="179.png" />
+<img src="180.png" />
+<img src="184.png" />
+<img src="185.png" />
+<img src="189.png" />
+<img src="190.png" />
+<img src="191.png" />
+<img src="192.png" />
+<img src="195.png" />
+<img src="196.png" />
+<img src="197.png" />
+<img src="199.png" />
+<img src="203.png" />
+<img src="205.png" />
+<img src="206.png" />
+<img src="208.png" />
+<img src="209.png" />
+<img src="211.png" />
+<img src="212.png" />
+<img src="218.png" />
+<img src="220.png" />
+<img src="221.png" />
+<img src="222.png" />
+<img src="223.png" />
+<img src="224.png" />
+<img src="227.png" />
+<img src="228.png" />
+<img src="229.png" />
+<img src="230.png" />
+<img src="235.png" />
+<img src="236.png" />
+<img src="237.png" />
+<img src="238.png" />
+<img src="239.png" />
+<img src="240.png" />
+<img src="241.png" />
+<img src="242.png" />
+<img src="243.png" />
+<img src="244.png" />
+<img src="245.png" />
+<img src="247.png" />
+<img src="249.png" />
+<img src="250.png" />
+<img src="251.png" />
+<img src="253.png" />
+<img src="255.png" />
+</div>
+
+<script type="text/javascript">
+
+document.getElementById('icons').addEventListener('click', (evt) => {
+  if (evt.target.tagName !== 'IMG') {
+    return
+  }
+
+  document.getElementById('indicator__text').textContent = evt.target.src
+  document.getElementById('preview').setAttribute('src', evt.target.src)
+  navigator.clipboard.writeText(evt.target.src)
+
+}, false)
+
+
+</script>
+
+  </body>
+</html>
