@@ -1,0 +1,277 @@
+{
+  "floors": [
+    {
+      "path": "/okiba/sola/challedun/2021-9-22/451.html",
+      "floor": "451",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "443",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=silvos&file=stasia.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "女神の狂信者",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "怪しげな妖術師",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エーテル使いA",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エーテル使いB",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険な詐欺師",
+          "role": "attacker"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-9-22/452.html",
+      "floor": "452",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "443",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=silvos&file=stasia.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険な詐欺師",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ストリートハスラー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エーテル使い",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "女神の狂信者",
+          "role": "healer"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "怪しげな妖術師",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-9-22/453.html",
+      "floor": "453",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "443",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=silvos&file=stasia.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ストリートハスラー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険な詐欺師",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エーテル使いA",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "怪しげな妖術師",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エーテル使いB",
+          "role": "support"
+        }
+      ]
+    },
+    {
+      "path": "/okiba/sola/challedun/2021-9-22/454.html",
+      "floor": "454",
+      "party": [
+        {
+          "eno": "723",
+          "icon": "https://e-ll-c.github.io/okiba/sola/yumetaso-icon.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "182",
+          "icon": "https://blog-imgs-110.fc2.com/v/i/p/vipdam/reflection.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "64",
+          "icon": "https://cdn-ak.f.st-hatena.com/images/fotolife/a/ayautaginrei/20201206/20201206010037.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "831",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=kankitsuK&file=ooze-icon-2.png",
+          "name": "",
+          "role": "support"
+        },
+        {
+          "eno": "443",
+          "icon": "http://tyaunen.moo.jp/txiloda/picture.php?user=silvos&file=stasia.png",
+          "name": "",
+          "role": "tank"
+        }
+      ],
+      "enemy": [
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険な詐欺師A",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エーテル使いA",
+          "role": "support"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "ストリートハスラー",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "危険な詐欺師B",
+          "role": "attacker"
+        },
+        {
+          "eno": null,
+          "icon": "/okiba/sola/img/no_img_icon.png",
+          "name": "エーテル使いB",
+          "role": "support"
+        }
+      ]
+    }
+  ],
+  "date": "2021-9-22"
+}
