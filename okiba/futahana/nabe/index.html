@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>icon list</title>
+  </head>
+
+<style type="text/css">
+  #indicator {
+    position: fixed;
+    top: .5rem;
+    left: .5rem;
+    background: rgba(255, 255, 255, .8);
+  }
+
+  body {
+    margin-top: calc(150px + .5rem);
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+    border:  1px solid transparent;
+  }
+</style>
+
+  <body>
+
+<div id="indicator">
+  <img id="preview" src="empty.png" />
+  <span id="indicator__text">クリックするとこぴーします</span>
+</div>
+
+
+<div id="icons">
+<img src="aji.png" />
+<img src="enoki.png" />
+<img src="koi.png" />
+<img src="kusa.png" />
+<img src="maguro.png" />
+<img src="matutake.png" />
+<img src="mushroom.png" />
+<img src="niku1.png" />
+<img src="niku2.png" />
+<img src="niku3.png" />
+<img src="nikuman.png" />
+<img src="red-mushroom.png" />
+<img src="wakame.png" />
+</div>
+
+<script type="text/javascript">
+document.getElementById('icons').addEventListener('click', (evt) => {
+  if (evt.target.tagName !== 'IMG') {
+    return
+  }
+
+  document.getElementById('indicator__text').textContent = evt.target.src
+  document.getElementById('preview').setAttribute('src', evt.target.src)
+  navigator.clipboard.writeText(evt.target.src)
+  evt.target.className = "checked"
+}, false)
+
+
+</script>
+
+  </body>
+</html>
