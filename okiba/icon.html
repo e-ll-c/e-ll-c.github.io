@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>icon list</title>
+  </head>
+
+<style type="text/css">
+  #indicator {
+    position: fixed;
+    top: .5rem;
+    left: .5rem;
+    background: rgba(255, 255, 255, .8);
+  }
+
+  body {
+    margin-top: calc(150px + .5rem);
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+    border:  1px solid transparent;
+  }
+</style>
+
+  <body>
+
+<div id="indicator">
+  <img id="preview" src="empty.png" />
+  <span id="indicator__text">良識の範囲内でご自由にお使いください。クリックするとこぴーします</span>
+</div>
+
+<div id="icons">
+<img src="/okiba/futahana/nabe/aji.png" />
+<img src="/okiba/futahana/nabe/enoki.png" />
+<img src="/okiba/futahana/nabe/koi.png" />
+<img src="/okiba/futahana/nabe/kusa.png" />
+<img src="/okiba/futahana/nabe/maguro.png" />
+<img src="/okiba/futahana/nabe/matutake.png" />
+<img src="/okiba/futahana/nabe/mushroom.png" />
+<img src="/okiba/futahana/nabe/niku1.png" />
+<img src="/okiba/futahana/nabe/niku2.png" />
+<img src="/okiba/futahana/nabe/niku3.png" />
+<img src="/okiba/futahana/nabe/nikuman.png" />
+<img src="/okiba/futahana/nabe/red-mushroom.png" />
+<img src="/okiba/futahana/nabe/wakame.png" />
+<img src="/okiba/995/melon.png" />
+<img src="/okiba/995/watermeron.png" />
+<img src="/okiba/995/turi-5.png" />
+<img src="/okiba/995/turi-4.png" />
+<img src="/okiba/995/turi-3.png" />
+
+<img src="/okiba/995/hanabi-1.png" />
+<img src="/okiba/995/hanabi-2.png" />
+<img src="/okiba/995/hanabi-3.png" />
+<img src="/okiba/995/hanabi-4.png" />
+<img src="/okiba/995/hanabi-5.png" />
+<img src="/okiba/995/hanabi-6.png" />
+<img src="/okiba/995/hanabi-7.png" />
+<img src="/okiba/995/hanabi-8.png" />
+<img src="/okiba/995/hanabi-9.png" />
+<img src="/okiba/995/hanabi-10.png" />
+<img src="/okiba/995/hanabi-11.png" />
+<img src="/okiba/995/hanabi-12.png" />
+<img src="/okiba/995/hanabi-13.png" />
+<img src="/okiba/995/hanabi-14.png" />
+<img src="/okiba/995/hanabi-15.png" />
+<img src="/okiba/995/hanabi-16.png" />
+<img src="/okiba/995/hanabi-17.png" />
+<img src="/okiba/995/hanabi-18.png" />
+<img src="/okiba/995/hanabi-19.png" />
+<img src="/okiba/995/hanabi-20.png" />
+<img src="/okiba/995/hanabi-21.png" />
+
+
+<img src="/okiba/995/yagura.png" />
+<img src="/okiba/995/yagura-2.png" />
+<img src="/okiba/995/yagura-3.png" />
+<img src="/okiba/995/yagura-4.png" />
+<img src="/okiba/995/yagura-5.png" />
+<img src="/okiba/995/takibi0.png" />
+
+<img src="/okiba/995/saiku-10.png" />
+<img src="/okiba/995/nazo-beef-icon.png" />
+
+
+
+</div>
+
+<script type="text/javascript">
+document.getElementById('icons').addEventListener('click', (evt) => {
+  if (evt.target.tagName !== 'IMG') {
+    return
+  }
+
+  document.getElementById('indicator__text').textContent = evt.target.src
+  document.getElementById('preview').setAttribute('src', evt.target.src)
+  navigator.clipboard.writeText(evt.target.src)
+  evt.target.className = "checked"
+}, false)
+
+
+</script>
+
+  </body>
+</html>
